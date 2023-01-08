@@ -1,0 +1,21 @@
+title (960, 100)
+title1 (960, 64)
+title2 (960, 129)
+genders (390, 306)
+genders1 
+genders2
+studio (390, 453)
+studio_animes
+studio_animes1 (390, 487)
+studio_animes2 (390, 521)
+director (390, 635)
+director_animes
+director_animes1 (390, 670)
+director_animes2 (390, 702)
+composer (390, 824)
+composer_animes
+composer_animes1 (390, 858)
+composer_animes2 (390, 891)
+original_source (390, 1011)
+platform (1044, 1025)
+premiere (1723, 995)

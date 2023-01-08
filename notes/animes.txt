@@ -1,0 +1,48 @@
+name = Bastard!! Ankoku no Hakaishin (2022)
+genders = Ação, Aventura, Fantasia, Ecchi
+studio = LIDENFILMS
+studio_animes = (Blade of The Immortal(2019) | Hanebado! | Tokyo Revengers)
+director = Taharu Ozaki
+director_animes = (Goblin Slayer | Shoujo Shuumatsu Ryoukou | Wave!! Surfing Yappe!!)
+composer = Yousuke Kuroda
+composer_animes = (Boku no Hero Academia | Hellsing Ultimate | Trigun)
+original_source = Mangá
+platform = Netflix
+premiere = 30/06
+
+name = Hoshi no Samidare (Lúcifer e o Martelo)
+genders = Ação, Sci-Fi, Sobrenatural, Fantasia, Seinen
+studio = NAZ
+studio_animes = (ID:Invaded | My Sister, My Writer | Thermae Romae Novae)
+director = Nobuaki Nakanishi
+director_animes =(Kashimashi: Girl Meets Girl | Kono Healer, Mendokusai | Mahoujin Guru Guru (1994))
+composer = Satoshi Mizukami - Yuuichirou Momose
+composer_animes = (Criador da Obra Original | Planet With) - (Africa no Salaryman | Hajimete no Gal | Kumo Desu ga, Nani ka?)
+original_source = Mangá
+platform = Crunchyroll
+premiere = 08/07
+
+name = Tensei Kenja no Isekai Life: Daini no Shokugyou o Ete, Sekai Saikyou ni Narimashita
+genders = Isekai, Ação, Aventura
+studio = REVOROOT
+studio_animes = (Babylon | Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita)
+director = Keisuke Kojima
+director_animes = (--)
+composer = Naohiro Fukushima
+composer_animes = (Santa Company)
+original_source = Light Novel
+platform = ??
+premiere = 04/07
+
+name = 
+genders = 
+studio = 
+studio_animes = 
+director = 
+director_animes = 
+composer = 
+composer_animes = 
+original_source = 
+platform = 
+premiere = 
+
