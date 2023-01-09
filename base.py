@@ -14,7 +14,7 @@ def verificarArquivo(tipo):
     if tipo == 'imagem':
         while True:
             try:
-                path_image = r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/test-cdt.png'
+                path_image = r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/images/test-cdt.png'
                 #path_image = r'{}'.format(input('Qual o path da imagem base (1920x1080) ?'))
                 if os.path.isfile(path_image):
                     extension = extensionRegex.search(path_image).group()
@@ -34,7 +34,7 @@ def verificarArquivo(tipo):
     elif tipo == 'texto':
         while True:
             try:
-                path_text = r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/text.txt'
+                path_text = r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/data/text.txt'
                 #path_text = r'{}'.format(input('Qual o path do arquivo de texto com a info dos animes ?'))
                 if os.path.isfile(path_text):
                     extension = extensionRegex.search(path_text).group()
@@ -111,11 +111,11 @@ dicioList = gerarDicio(text)
 # Definições de Fonte
 def fonte(size, tipo = 'normal'):
     if tipo == 'normal':
-        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/coolvetica rg.otf', size)
+        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/fonts/coolvetica rg.otf', size)
     elif tipo == 'italic':
-        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/coolvetica rg it.otf', size)
+        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/fonts/coolvetica rg it.otf', size)
     elif tipo == 'condensed':
-        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/coolvetica condensed rg.otf', size)
+        myFont = ImageFont.truetype(r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/fonts/coolvetica condensed rg.otf', size)
     return myFont
 
 # Quebra Texto
@@ -414,7 +414,7 @@ for numAnime in range(1, int(len(text) / 11 + 1)):
         except:
             pass
     final_name = ''.join(final_name)
-    name_image = os.path.join(r'C:\\Users\\Riku Aoki\\Documents\\Programas\\CDT\\Image',
+    name_image = os.path.join(r'C:\\Users\\Riku Aoki\\Documents\\Programas\\GuiaCDT\\src\\images',
                               final_name)
     
     # Abre a imagem escolhida

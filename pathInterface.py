@@ -11,7 +11,7 @@ class FramePath(Frame):
         self.row_number = row_number
         self.column_number = column_number
 
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_item = Label(self)
         image_item.configure(image=image)
         image_item.image = image
@@ -47,14 +47,14 @@ def Atualizar():
     # Imagem Base
     if VerificarArquivo(base_image_path.get()):
         # Imagem
-        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/accept.png")
+        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/accept.png")
         image_01.configure(image=new_image)
         image_01.image = new_image
         # Balão
         tip_base_image.bind_widget(image_01, balloonmsg = "Arquivo Identificado")
     else:
         # Imagem
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_01.configure(image=image)
         image_01.image = image
         # Balão
@@ -63,14 +63,14 @@ def Atualizar():
     # Fonte Principal
     if VerificarArquivo(principal_font.get()):
         # Imagem
-        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/accept.png")
+        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/accept.png")
         image_02.configure(image=new_image)
         image_02.image = new_image
         # Balão
         tip_principal_font.bind_widget(image_02, balloonmsg="Arquivo Identificado")
     else:
         # Imagem
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_02.configure(image=image)
         image_02.image = image
         # Balão
@@ -79,14 +79,14 @@ def Atualizar():
     # Fonte Itálico
     if VerificarArquivo(italic_font.get()):
         # Imagem
-        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/accept.png")
+        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/accept.png")
         image_03.configure(image=new_image)
         image_03.image = new_image
         # Balão
         tip_italic_font.bind_widget(image_03, balloonmsg="Arquivo Identificado")
     else:
         # Imagem
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_03.configure(image=image)
         image_03.image = image
         # Balão
@@ -95,14 +95,14 @@ def Atualizar():
     # Pasta de Destino
     if VerificarArquivo(destiny_path.get()):
         # Imagem
-        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/accept.png")
+        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/accept.png")
         image_04.configure(image=new_image)
         image_04.image = new_image
         # Balão
         tip_destiny_path.bind_widget(image_04, balloonmsg="Arquivo Identificado")
     else:
         # Imagem
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_04.configure(image=image)
         image_04.image = image
         # Balão
@@ -111,7 +111,7 @@ def Atualizar():
     # Fonte Negrito
     if VerificarArquivo(bold_font.get()):
         # Imagem
-        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/accept.png")
+        new_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/accept.png")
         image_04.configure(image=new_image)
         image_04.image = new_image
         # Balão
@@ -120,7 +120,7 @@ def Atualizar():
         pass
     else:
         # Imagem
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
+        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
         image_04.configure(image=image)
         image_04.image = image
         # Balão
@@ -191,8 +191,8 @@ destiny_path.grid(row=3, column=2)
 bold_font.grid(row=5, column=2)
 
 # Imagens Verificadoras
-image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/cancel.png")
-optional_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/CDT/Image/add.png")
+image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
+optional_image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/add.png")
 image_01 = Label(path_frame, image=image)
 image_02 = Label(path_frame, image=image)
 image_03 = Label(path_frame, image=image)
