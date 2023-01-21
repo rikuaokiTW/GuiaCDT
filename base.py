@@ -18,7 +18,7 @@ def verificarArquivo(tipo):
                 #path_image = r'{}'.format(input('Qual o path da imagem base (1920x1080) ?'))
                 if os.path.isfile(path_image):
                     extension = extensionRegex.search(path_image).group()
-                    if extensionRegex.search(path_image).group() == 'png':
+                    if extension == 'png':
                         return path_image
                         break
                     else:
