@@ -1,31 +1,55 @@
 from tkinter import *
 from tkinter.tix import *
 
-class FramePath(Frame):
-    def __init__(self, master, label_name, row_number, column_number):
+class VisualWarning(Label, Balloon):
+    def __init__(self, master, pathImage, row, column):
         super().__init__()
         self.master = master
-        self.label_name = label_name
-        self.row_number = row_number
-        self.column_number = column_number
+        self.image = PhotoImage(file=pathImage)
+        self.row = row
+        self.column = column
 
-        image = PhotoImage(file=r"C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png")
-        self.image_item = Label(self.master)
-        self.image_item.configure(image=image)
-        self.image_item.image = image
-        self.image_item.grid(row=self.row_number, column=self.column_number)
+        self.warning = Label(self.master, image=self.image)
+        self.warning.grid(row=self.row, column=self.column)
         
-        self.label_item = Label(self.master, text=self.label_name, width="10", anchor=W)
-        self.label_item.grid(row=self.row_number, column=self.column_number + 1, sticky=W)
-        
-        self.path_item = Entry(self.master, width="50")
-        self.path_item.grid(row=self.row_number, column=self.column_number + 2, sticky="EW")
-        
-        self.tip_item = Balloon(self.master)
-        self.tip_item.bind_widget(self.image_item, balloonmsg="Path não identificado")
+        self.balloonWarning = Balloon(master)
+        self.balloonWarning.bind_widget(self.warning, balloonmsg="Path não identificado")
 
-    def returnText(self):
-        return self.path_item.get()
+    def setImage(self, newImage):
+        self.image = PhotoImage(file=newImage)
+        self.warning.configure(image=self.image)
+        self.warning.image = self.image
+
+    def setMessage(self, newMessage):
+        self.balloonWarning.bind_widget(self.warning, balloonmsg=newMessage)
+
+class Title(Label):
+    def __init__(self, master, name, row, column, columnspan = 1, sticky = 'W'):
+        super().__init__()
+        self.master = master
+        self.name = name
+        self.row = row
+        self.column = column
+        self.columnspan = columnspan
+        self.sticky = sticky
+
+        self.Label = Label(self.master, text=self.name)
+        self.Label.grid(row=self.row, column=self.column, columnspan=self.columnspan, sticky=self.sticky)
+        
+
+class Input(Entry):
+    def __init__(self, master, width, row, column):
+        super().__init__()
+        self.master = master
+        self.width = width
+        self.row = row
+        self.column = column
+        
+        self.input = Entry(self.master, width=self.width)
+        self.input.grid(row=self.row, column=self.column)
+
+    def getValue(self):
+        return self.input.get()
 
 root = Tk()
 root.title("Testando")
@@ -40,30 +64,34 @@ pj = (rm[0]/2 - dj[0]/2, rm[1]/2 - dj[1]/2)
 
 root.geometry("{}x{}+{}+{}".format(dj[0], dj[1], int(pj[0]), int(pj[1])))
 #---------------------------------------------------------------------------
-path_frame = Frame(root, width=dj[0], padx=5, pady=5, bd=5, relief="groove")
+path_frame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
 
-frame01 = FramePath(path_frame, "Sim", 0, 0)
 
-frame02 = FramePath(path_frame, "Não", 1, 0)
+label_bimage = Title(path_frame, "Imagem Base:", 0, 1)
+label_principal_font = Title(path_frame, "Fonte Principal:", 1, 1)
 
-frame03 = FramePath(path_frame, "Tlvz", 2, 0)
+base_image_path = Input(path_frame, "50", 0, 2)
+principal_font = Input(path_frame, "50", 1, 2)
 
-frame04 = FramePath(path_frame, "Vai saber", 3, 0)
+image_01 = VisualWarning(path_frame, r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png', 0, 0)
+image_02 = VisualWarning(path_frame, r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/cancel.png', 1, 0)
 
+image_01.setImage(r'C:/Users/Riku Aoki/Documents/Programas/GuiaCDT/src/icons/add.png')
 
 def showDado():
-    print(frame01.returnText())
+    print(base_image_path.getValue())
+    image_01.setMessage("Sim")
+    #print(frame01.returnText())
 
 btn2 = Button(root, text = "Show Original", command=lambda: showDado())
 btn2.grid(row=2, column=0)
 
-path_frame.grid(row=0, column=0, sticky="NSWE")
+path_frame.grid(row=0, column=0)
 
 # Responsividade
-path_frame.grid_rowconfigure((0, 1, 2, 3), weight=1, uniform=0)
-path_frame.grid_columnconfigure((0,1,2,3), weight=1, minsize=2)
-root.grid_rowconfigure(0, weight=2)
-root.grid_columnconfigure(0, weight=2)
-
+path_frame.grid_rowconfigure(0, weight=1)
+path_frame.grid_columnconfigure(0, weight=1)
+root.grid_rowconfigure(0, weight=1)
+root.grid_columnconfigure(0, weight=1)
 
 root.mainloop()
