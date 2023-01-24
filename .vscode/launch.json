@@ -12,14 +12,5 @@
       "console": "integratedTerminal",
       "cwd": "${fileDirname}",
     },
-    {
-      "type": "pwa-node",
-      "request": "launch",
-      "name": "Launch Program",
-      "args": ["a", "file.txt"],
-      "outputCapture": "std",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${file}"
-    }
   ]
 }
