@@ -4,6 +4,7 @@ from tkinter.tix import *
 from PIL import Image, ImageDraw, ImageFont
 import re, os
 
+#--------------------------------------------------------------------------
 class FileVerification():
     def __init__(self):
         self.extensionRegex = re.compile(r'[^.]+$')
@@ -62,7 +63,7 @@ class VisualWarning(Label, Balloon):
         self.__balloonWarning.bind_widget(self.__warning, balloonmsg=newMessage)
 
 class Title(Label):
-    def __init__(self, master, name, row, column, columnspan = 1, sticky = 'W'):
+    def __init__(self, master, name, row, column, padx=0, pady=0, bgColor='', fgColor='', columnspan = 1, sticky = 'W'):
         super().__init__()
         self.__master = master
         self.name = name
@@ -70,31 +71,42 @@ class Title(Label):
         self._column = column
         self._columnspan = columnspan
         self.sticky = sticky
+        self.bgColor = bgColor if bgColor else self.__master.cget("bg")
+        self.fgColor = fgColor if fgColor else "black"
 
-        self.label = Label(self.__master, text=self.name)
+        self.label = Label(self.__master, text=self.name, padx=padx, pady=pady, bg=self.bgColor, fg=self.fgColor)
         self.label.grid(row=self._row, column=self._column, columnspan=self._columnspan, sticky=EW)
         self.label.bind("<Configure>", self.setSize)
         #self.label.columnconfigure(self._column, weight=2)
     
     def setSize(self, event):
-        if event.width < 70:
-            font_size = int(event.width/7)
+        if event.width < 40:
+            font_size = int(event.width/4)
             #print("caso 1: ", font_size, event.width, self.label.cget("text"))
+        elif event.width >= 40 and event.width < 50:
+            font_size = int(event.width/5)
+            #print("caso 2: ", font_size, event.width, self.label.cget("text"))
+        elif event.width >= 50 and event.width < 60:
+            font_size = int(event.width/6)
+            #print("caso 3: ", font_size, event.width, self.label.cget("text"))
+        elif event.width >= 60 and event.width < 70:
+            font_size = int(event.width/7)
+            #print("caso 4: ", font_size, event.width, self.label.cget("text"))
         elif event.width >= 70 and event.width < 80:
             font_size = int(event.width/8)
-            #print("caso 2: ", font_size, event.width, self.label.cget("text"))
+            #print("caso 5: ", font_size, event.width, self.label.cget("text"))
         elif event.width >= 80 and event.width < 90:
             font_size = int(event.width/9)
-            #print("caso 3: ", font_size, event.width, self.label.cget("text"))
+            #print("caso 6: ", font_size, event.width, self.label.cget("text"))
         elif event.width >= 90 and event.width < 110:
             font_size = int(event.width/10)
-            #print("caso 4: ", font_size, event.width, self.label.cget("text"))
+            #print("caso 7: ", font_size, event.width, self.label.cget("text"))
         elif event.width >= 110 and event.width < 150:
             font_size = int(event.width/11)
-            #print("caso 5: ", font_size, event.width, self.label.cget("text"))
+            #print("caso 8: ", font_size, event.width, self.label.cget("text"))
         elif event.width >= 150:
             font_size = 14
-            #print("caso 6: ", font_size, event.width, self.label.cget("text"))
+            #print("caso 9: ", font_size, event.width, self.label.cget("text"))
         self.label.configure(font=("Arial", font_size))
 
 
@@ -122,6 +134,59 @@ class Input(Entry):
     def clearText(self):
         self.input.delete(0, END)
 
+class AreaFrame(Frame):
+    def __init__(self, master, frameTitle, campo, numFrames, nameFrames, row, column, bgColor="gray", padx=10, pady=10, bd=3):
+        super().__init__()
+        self.__master = master
+        self._row = row
+        self._column = column
+        self._nameFrames = nameFrames
+        self._frameTitle = frameTitle
+        self._campo = campo
+        
+        self.areaFrame = Frame(self.__master, bg=bgColor, padx=padx, pady=pady, bd=bd)
+        self.subFrames = []
+
+        for i in range(numFrames):
+            columnLabel = i + i
+            columnInput = (i + 1) + i
+            newFrame = {
+                "fieldName": self._nameFrames[i],
+                "labelTitle": Title(self.areaFrame, self._nameFrames[i], 1, columnLabel, pady=2, columnspan=2, sticky=EW, fgColor="white"),
+                "labelFont": Title(self.areaFrame, "font size:", 2, columnLabel, padx=2, bgColor="gray", fgColor="white"),
+                "labelCoordx": Title(self.areaFrame, "coordx:", 3, columnLabel, padx=2, bgColor="gray", fgColor="white"),
+                "labelCoordy": Title(self.areaFrame, "coordy:", 4, columnLabel, padx=2, bgColor="gray", fgColor="white"),
+                "inputCampo": self._campo,
+                "inputFont": Input(self.areaFrame, "10", 2, columnInput),
+                "inputCoordx": Input(self.areaFrame, "10", 3, columnInput),
+                "inputCoordy": Input(self.areaFrame, "10", 4, columnInput),
+            }
+            self.subFrames.append(newFrame)
+        
+        self.title = Title(self.areaFrame, self._frameTitle, 0, 0, pady=2, fgColor="white", columnspan=self.areaFrame.grid_size()[1] + 1, sticky=EW)
+        self.areaFrame.grid(row=self._row, column=self._column)
+
+    def getSubFrames(self):
+        return self.subFrames
+
+    def getFontSize(self, field):
+        #print(field)
+        for item in self.subFrames:
+            #print(item['fieldName'])
+            if item['fieldName'] == field:
+                print('Aqui', item['inputFont'].getValue())
+                return item["inputFont"].getValue()
+
+    def getValueX(self, field):
+        for item in self.subFrames:
+            if item["fieldName"] == field:
+                return int(item["inputCoordx"].getValue())
+    
+    def getValueY(self, field):
+        for item in self.subFrames:
+            if item["fieldName"] == field:
+                return int(item["inputCoordy"].getValue())
+
 class SearchButton(Button):
     def __init__(self, master, text, padx, pady, inputIndex, row, column,bgColor='lightgray', bgActive="gray"):
         super().__init__()
@@ -141,6 +206,8 @@ class SearchButton(Button):
 
         return filename
 
+#--------------------------------------------------------------------------
+
 class ActionButton(Button):
     def __init__(self, master, text, bgColor, fontColor, action, row, column, sticky=N, span=1, listInputs=[]):
         self.__master = master
@@ -157,6 +224,8 @@ class ActionButton(Button):
             self.actionButton.configure(command=lambda: self.verifyInputs())
         elif self._action == 'limpar':
             self.actionButton.configure(command=lambda: self.clearInputs())
+        elif self._action == 'preview':
+            self.actionButton.configure(command=lambda: self.setPreview())
 
     def verifyInputs(self):
         if self.listInputs:
@@ -224,6 +293,43 @@ class ActionButton(Button):
     def clearInputs(self):
         for item in self.listInputs:
             item['input'].clearText()
+    
+    def setPreview(self):
+        # Abrindo a imagem
+        for item in self.listInputs:
+            if item['fieldName'] == '1 linha':
+                preview_image = Image.open(os.path.join(os.getcwd(), r'src/images/preview.png'))
+                
+                # Pegando o texto pra adicionar
+                text_to_add = item['inputCampo'].getValue()
+
+                # Coordenadas adaptadas pra preview
+                preview_font_height = round((int(item['inputFont'].getValue()) / 1080) * 300)
+                preview_coordx = int(item['inputCoordx'].getValue()) / 1920 * 523
+                preview_coordy = int(item['inputCoordy'].getValue()) / 1080 * 300
+
+                # Definindo a fonte
+                text_font = ImageFont.truetype(os.path.join(os.getcwd(), r'src/fonts/coolvetica rg.otf'), preview_font_height)
+
+                # Editando a imagem
+                preview_image_edit = ImageDraw.Draw(preview_image)
+                preview_image_edit.text((preview_coordx, preview_coordy), text_to_add, anchor="mm", font=text_font)
+
+                # Salvando a imagem
+                preview_image.save(os.path.join(os.getcwd(), r'src/images/new_preview.png'))
+
+                # Limpe a entry box
+                item['inputCampo'].delete(0, END)
+                item['inputCampo'].insert(0, "Saving File...")
+
+                # Espere alguns segundos e mostre a imagem
+                image_preview.after(2000, self.show_pic(os.path.join(os.getcwd(), r'src/images/new_preview.png')))
+
+    def show_pic(self, pathNewPic):
+        global new_preview
+        new_preview = PhotoImage(file=pathNewPic)
+        image_preview.config(image=new_preview)
+        title_input.delete(0, END)
 
 #--------------------------------------------------------------------------
 # Início
@@ -310,8 +416,8 @@ title_label = Label(preview_texts, text="1. Título:", padx=5)
 title_label.grid(row=0, column=0)
 
 # Inputs
-title_input = Entry(preview_texts, width="40")
-title_input.grid(row=0, column=1, sticky=EW, pady=10)
+title_input = Input(preview_texts, "40", 0, 1)
+#title_input.grid(row=0, column=1, sticky=EW, pady=10)
 
 preview_texts.grid(row=2, column=0, sticky=EW)
 
@@ -321,31 +427,12 @@ adjust_canvas = Canvas(root, width=dj[0])
 adjust_frame = Frame(adjust_canvas)
 
 # Criando Labels
-title_label = Label(adjust_frame, text="Título")
-title_label.grid(row=0, column=0)
-
-# Frame dos inputs
-titles_frame = Frame(adjust_frame, bg="gray", padx=10, pady=10, bd=3)
+#title_label = Title(adjust_frame, "Título:", 0, 0)
+#title_label.grid(row=0, column=0)
 
 
-# Criando label das coordenadas
-font_height_label = Label(titles_frame, text="font size")
-font_height_label.grid(row=0, column=0)
-coordx_label = Label(titles_frame, text="coordx")
-coordx_label.grid(row=1, column=0)
-coordy_label = Label(titles_frame, text="coordy")
-coordy_label.grid(row=2, column=0)
-
-# Criando inputs dos titulos
-font_height_input = Entry(titles_frame)
-font_height_input.grid(row=0, column=1)
-coordx_input = Entry(titles_frame)
-coordx_input.grid(row=1, column=1)
-coordy_input = Entry(titles_frame)
-coordy_input.grid(row=2, column=1)
-
-# Fechando Frame dos Inputs
-titles_frame.grid(row=1, column=0)
+# Frames onde serão ajustadas as coordenadas e tamanho de fonte
+titles_frame = AreaFrame(adjust_frame, "Título:", title_input, 3, ("1 linha", "2 linhas", "3 linhas"), 0, 0) 
 
 # Barra de Scroll
 scrollbar = Scrollbar(root, orient='vertical')
@@ -368,43 +455,10 @@ adjust_canvas.grid(row=3, column=0, sticky=EW)
 
 #---------------------------------------------------------------------------
 # Acionar Preview
-def add_it():
-    # Abrindo a imagem
-    preview_image = Image.open(os.path.join(os.getcwd(), r'src/images/preview.png'))
-    
-    # Pegando o texto pra adicionar
-    text_to_add = title_input.get()
 
-    # Coordenadas adaptadas pra preview
-    preview_font_height = round((int(font_height_input.get()) / 1080) * 300)
-    preview_coordx = (int(coordx_input.get()) / 1920) * 523
-    preview_coordy = (int(coordy_input.get()) / 1080) * 300
-
-    # Definindo a fonte
-    text_font = ImageFont.truetype(os.path.join(os.getcwd(), r'src/fonts/coolvetica rg.otf'), preview_font_height)
-
-    # Editando a imagem
-    preview_image_edit = ImageDraw.Draw(preview_image)
-    preview_image_edit.text((preview_coordx, preview_coordy), text_to_add, anchor="mm", font=text_font)
-
-    # Salvando a imagem
-    preview_image.save(os.path.join(os.getcwd(), r'src/images/new_preview.png'))
-
-    # Limpe a entry box
-    title_input.delete(0, END)
-    title_input.insert(0, "Saving File...")
-
-    # Espere alguns segundos e mostre a imagem
-    image_preview.after(2000, show_pic(os.path.join(os.getcwd(), r'src/images/new_preview.png')))
-
-def show_pic(pathNewPic):
-    global new_preview
-    new_preview = PhotoImage(file=pathNewPic)
-    image_preview.config(image=new_preview)
-    title_input.delete(0, END)
-
-buttonDemo = Button(root, text="Demonstração", command=lambda: add_it())
-buttonDemo.grid(row=4, column=0, sticky=EW)
+buttonDemo = ActionButton(root, "Demonstração", bgColor="lightyellow", fontColor="black", action="preview", row=4, column=0, sticky=EW, listInputs=titles_frame.getSubFrames())
+""" buttonDemo = Button(root, text="Demonstração", command=lambda: add_it())
+buttonDemo.grid(row=4, column=0, sticky=EW) """
 
 
 
