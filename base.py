@@ -139,16 +139,16 @@ def quebraTexto(item, text, maxCharac):
             texto = list(text)
             for x in range(contDecre):
                 if texto[cut] == ' ':
+                    texto[cut] = '\n'
                     break
                 else:
                     cut -= 1
             coordx = 960
-            coord1y = 64
+            coord1y = 102 #64
             coord2y = 129
-            texto1 = text[:cut]
+            texto1 = ''.join(texto) #text[:cut]
             texto2 = text[cut:]
             return coordx, coord1y, coord2y, texto1, texto2
-        
     # Para a área genders
     elif item == 'genders':
         if length <= maxCharac:
@@ -250,13 +250,14 @@ def quebraTexto(item, text, maxCharac):
             texto = list(text)
             for x in range(contDecre):
                 if texto[cut] == ' ':
+                    texto[cut] = '\n' #
                     break
                 else:
                     cut -= 1
             coordx = 390
-            coord1y = 670
+            coord1y = 650 #670
             coord2y = 702
-            texto1 = text[:cut]
+            texto1 = ''.join(texto) #text[:cut]
             texto2 = text[cut:]
             return coordx, coord1y, coord2y, texto1, texto2
         # Caso o área seja de 3 linhas
@@ -264,19 +265,21 @@ def quebraTexto(item, text, maxCharac):
             texto = list(text)
             for x in range(contDecre):
                 if texto[cut] == ' ':
+                    texto[cut] = '\n' #
                     break
                 else:
                     cut -= 1
             for x in range(contDecre):
                 if texto[cut2] == ' ':
+                    texto[cut2] = '\n' #
                     break
                 else:
                     cut2 -= 1
             coordx = 390
-            coord1y = 670
+            coord1y = 650 #670
             coord2y = 702
             coord3y = 733
-            texto1 = text[:cut]
+            texto1 = ''.join(texto) #text[:cut]
             texto2 = text[cut:cut2]
             texto3 = text[cut2:]
             return coordx, coord1y, coord2y, coord3y, texto1, texto2, texto3
@@ -285,25 +288,28 @@ def quebraTexto(item, text, maxCharac):
             texto = list(text)
             for x in range(contDecre):
                 if texto[cut] == ' ':
+                    texto[cut] = '\n' #
                     break
                 else:
                     cut -= 1
             for x in range(contDecre):
                 if texto[cut2] == ' ':
+                    texto[cut2] = '\n' #
                     break
                 else:
                     cut2 -= 1
             for x in range(contDecre):
                 if texto[cut3] == ' ':
+                    texto[cut3] = '\n' #
                     break
                 else:
                     cut3 -= 1
             coordx = 390
-            coord1y = 654
+            coord1y = 650 #654
             coord2y = 683
             coord3y = 710
             coord4y = 737
-            texto1 = text[:cut]
+            texto1 = ''.join(texto) #text[:cut]
             texto2 = text[cut:cut2]
             texto3 = text[cut2:cut3]
             texto4 = text[cut3:]
@@ -385,7 +391,7 @@ def quebraTexto(item, text, maxCharac):
 # Adicionando itens e fazendo as imagens
 for numAnime in range(1, int(len(text) / 11 + 1)):
     # Cortes
-    corte_titulo = 38
+    corte_titulo = 53 # 38
     corte_lateral = 40
     # Evitando erro de concatenação
     numAnime = str(numAnime)
@@ -432,10 +438,10 @@ for numAnime in range(1, int(len(text) / 11 + 1)):
         imageDraw.text((dados[0], dados[1]), dados[2], anchor='mm',
                font=fonte(110), fill=(255, 255, 255))
     elif len(dados) == 5:
-        imageDraw.text((dados[0], dados[1]), dados[3], anchor='mm',
-               font=fonte(75), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[2]), dados[4], anchor='mm',
-               font=fonte(75), fill=(255, 255, 255))
+        imageDraw.multiline_text((dados[0], dados[1]), dados[3], anchor='mm',
+               font=fonte(75), fill=(255, 255, 255), align="center", spacing=0)
+        #imageDraw.text((dados[0], dados[2]), dados[4], anchor='mm',
+        #       font=fonte(75), fill=(255, 255, 255))
 
     # def Genders
     dados = quebraTexto('genders', dicioList[genders], corte_lateral)
@@ -488,35 +494,35 @@ for numAnime in range(1, int(len(text) / 11 + 1)):
     if len(dados) == 3:
         imageDraw.text((390, 635), dicioList[director], anchor='mm',
                font=fonte(40), fill=(255, 255, 255)) # Atenção com o tamanho da fonte, pode mudar
-        imageDraw.text((dados[0], dados[1]), dados[2], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
+        imageDraw.text((dados[0], dados[1]), dados[2], anchor='ma',
+               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255), align="center", spacing=0)
     elif len(dados) == 5:
         imageDraw.text((390, 635), dicioList[director], anchor='mm',
                font=fonte(40), fill=(255, 255, 255)) # Atenção com o tamanho da fonte, pode mudar
-        imageDraw.text((dados[0], dados[1]), dados[3], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[2]), dados[4], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
+        imageDraw.multiline_text((dados[0], dados[1]), dados[3], anchor='ma',
+               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255), align="center", spacing=0)
+        #imageDraw.text((dados[0], dados[2]), dados[4], anchor='mm',
+        #       font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
     elif len(dados) == 7:
         imageDraw.text((390, 635), dicioList[director], anchor='mm',
                font=fonte(40), fill=(255, 255, 255)) # Atenção com o tamanho da fonte, pode mudar
-        imageDraw.text((dados[0], dados[1]), dados[4], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[2]), dados[5], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[3]), dados[6], anchor='mm',
-               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
+        imageDraw.multiline_text((dados[0], dados[1]), dados[4], anchor='ma',
+               font=fonte(35, tipo = 'italic'), fill=(255, 255, 255), align="center", spacing=0)
+        #imageDraw.text((dados[0], dados[2]), dados[5], anchor='mm',
+        #       font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
+        #imageDraw.text((dados[0], dados[3]), dados[6], anchor='mm',
+        #       font=fonte(35, tipo = 'italic'), fill=(255, 255, 255))
     elif len(dados) == 9:
         imageDraw.text((390, 630), dicioList[director], anchor='mm',
                font=fonte(31), fill=(255, 255, 255)) # Atenção com o tamanho da fonte, pode mudar
-        imageDraw.text((dados[0], dados[1]), dados[5], anchor='mm',
-               font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[2]), dados[6], anchor='mm',
-               font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[3]), dados[7], anchor='mm',
-               font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
-        imageDraw.text((dados[0], dados[4]), dados[8], anchor='mm',
-               font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
+        imageDraw.multiline_text((dados[0], dados[1]), dados[5], anchor='ma',
+               font=fonte(30, tipo = 'italic'), fill=(255, 255, 255), align="center", spacing=0)
+        #imageDraw.text((dados[0], dados[2]), dados[6], anchor='mm',
+        #       font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
+        #imageDraw.text((dados[0], dados[3]), dados[7], anchor='mm',
+        #       font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
+        #imageDraw.text((dados[0], dados[4]), dados[8], anchor='mm',
+        #       font=fonte(30, tipo = 'italic'), fill=(255, 255, 255))
 
     # def composer
     dados = quebraTexto('composer_animes', dicioList[composer_animes], corte_lateral)
