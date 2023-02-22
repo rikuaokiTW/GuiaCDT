@@ -4,9 +4,9 @@ from tkinter.tix import *
 from PIL import Image, ImageDraw, ImageFont
 import re, os, logging, asyncio, threading
 
-logging.basicConfig(filename="log.txt", filemode="w", level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s", datefmt='%d/%m/%Y %I:%M:%S %p')
-logging.debug('=================================')
-logging.debug('Início do Programa')
+logging.basicConfig(filename="log.txt", filemode="w", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s", datefmt='%d/%m/%Y %I:%M:%S %p')
+logging.info('=================================')
+logging.info('Início do Programa')
 
 #--------------------------------------------------------------------------
 class FileVerification():
@@ -147,20 +147,20 @@ class ImageText():
             fontText = self.font(path, size)
         return fontText
     
-    def writeImage(self, image, text, textFont, coordx, coordy, anchor='ma', spacing=0):
+    def writeImage(self, image, text, textFont, coordx, coordy, anchor='ma', spacing=0, color=(255, 255, 255)):
         if '\n' in text:
-            print('Entrou no multiline')
-            self.multiLine(image).multiline_text((coordx, coordy), text, anchor=anchor, font=textFont, fill=(255, 255, 255), align="center", spacing=spacing)
+            #print('Entrou no multiline')
+            self.multiLine(image).multiline_text((coordx, coordy), text, anchor=anchor, font=textFont, fill=color, align="center", spacing=spacing)
         else:
-            print(f'texto: {text} entrou em oneLine')
             self.oneLine(image).text((coordx, coordy), text, anchor=anchor,
-               font=textFont, fill=(255, 255, 255))
+               font=textFont, fill=color)
 
 
 class VisualWarning(Label, Balloon):
+    """
+        RF002 - Configura os alertas visuais e possibilita alteração
+    """
     def __init__(self, master, pathImage, row, column):
-        logging.debug('*** Criando Instância de VisualWarning ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
         super().__init__()
         self.__master = master
         self.__image = PhotoImage(file=pathImage)
@@ -173,7 +173,7 @@ class VisualWarning(Label, Balloon):
         
         self.__balloonWarning = Balloon(self.__master)
         self.__balloonWarning.bind_widget(self.__warning, balloonmsg="Path não identificado")
-        logging.debug('*** Fim de Criação de Instância ***')
+        logging.info(f'*** Instância de VisualWarning - linha: {self._row}, coluna: {self._column} ***')
 
     def setImage(self, newImage):
         self.__image = PhotoImage(file=newImage)
@@ -185,8 +185,6 @@ class VisualWarning(Label, Balloon):
 
 class Title(Label):
     def __init__(self, master, name, row, column, padx=0, pady=0, bgColor='', fgColor='', columnspan = 1, sticky = EW, listInputs=[]):
-        logging.debug('*** Criando Instância de Title ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
         super().__init__()
         self.__master = master
         self._row = row
@@ -198,11 +196,10 @@ class Title(Label):
         self.bgColor = bgColor if bgColor else self.__master.cget("bg")
         self.fgColor = fgColor if fgColor else "black"
 
-        self.label = Label(self.__master, text=self.name, padx=padx, pady=pady, bg=self.bgColor, fg=self.fgColor)
+        self.label = Label(self.__master, text=self.name, padx=padx, pady=pady, bg=self.bgColor, fg=self.fgColor, font=("Arial", 9))
         self.label.grid(row=self._row, column=self._column, columnspan=self._columnspan, sticky=self.sticky)
-        self.label.bind("<Configure>", self.setSize)
-        #self.label.columnconfigure(self._column, weight=2)
-        logging.debug('*** Fim de Criação de Instância ***')
+        #self.label.bind("<Configure>", self.setSize)
+        logging.info(f'*** Instância de Title - linha: {self._row}, coluna: {self._column}***')
 
     def getValue(self):
         return self.label.cget("text")
@@ -210,7 +207,8 @@ class Title(Label):
     def setName(self, newName):
         self.label.config(text = newName)
     
-    def setSize(self, event):
+    # Responsividade no Tamanho de Labels
+    """ def setSize(self, event):
         if event.width < 10:
             font_size = int(event.width/1)
             logging.info(f"Redimensionando {self.label.cget('text')} no caso 1: de {event.width} para {font_size}")
@@ -247,7 +245,7 @@ class Title(Label):
         elif event.width >= 150:
             font_size = 14
             logging.info(f"Redimensionando {self.label.cget('text')} no caso 12: de {event.width} para {font_size}")
-        #self.label.configure(font=("Arial", font_size))
+        #self.label.configure(font=("Arial", font_size)) """
     
     def removeWidget(self):
         self.label.grid_remove()
@@ -255,8 +253,6 @@ class Title(Label):
 
 class Input(Entry):
     def __init__(self, master, width, row, column, textDefault = '', columnspan=1):
-        logging.debug('*** Criando Instância de Input ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
         super().__init__()
         self.__master = master
         self._width = width
@@ -266,9 +262,8 @@ class Input(Entry):
         
         self.input = Entry(self.__master, width=self._width)
         self.input.grid(row=self._row, column=self._column, columnspan=columnspan, sticky=EW)
-        #self.input.columnconfigure(self._column, weight=3)
         self.setText(textDefault)
-        logging.debug('*** Fim de Criação de Instância ***')
+        logging.info(f'*** Instância de Input - linha: {self._row}, coluna {self._column}***')
 
     def getValue(self):
         return self.input.get()
@@ -285,8 +280,6 @@ class Input(Entry):
 
 class AreaFrame(Frame):
     def __init__(self, master, frameTitle, campo, nameFrames, row, column, bgColor="gray", padx=10, pady=10, bd=3):
-        logging.debug('*** Criando Instância de AreaFrame ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
         super().__init__()
         self.__master = master
         self._row = row
@@ -298,10 +291,10 @@ class AreaFrame(Frame):
         
         self.areaFrame = Frame(self.__master, bg=bgColor, padx=padx, pady=pady, bd=bd)
         self.subFrames = []
-        logging.debug('*** Fim de Criação de Instância ***')
+        logging.info(f'*** Instância de AreaFrame - linha: {self._row}, coluna: {self._column} ***')
 
         for i in range(self._numFrames):
-            # Exceções de 1 linha
+            # RF008 - Exceções de 1 linha para otimização de áreas
             specificFields = ['Título:', 'Gêneros:', 'Origem:', 'Plataforma:', 'Data de Estréia:']
             # Adicionamento dinâmico de colunas
             columnLabel = i * 4
@@ -325,6 +318,9 @@ class AreaFrame(Frame):
                     "inputFont": Input(self.areaFrame, "6", 5, columnInput, columnspan=2),
                     "inputFont2": Input(self.areaFrame, "6", 6, columnInput, columnspan=2),
                 }
+                if 'Nome' in self._frameTitle or 'Estréia' in self._frameTitle or self._frameTitle == 'Plataforma:' or self._frameTitle == 'Origem:':
+                    newFrame['inputCharacter2'].removeWidget()
+                    newFrame.update({'inputCharacter2':Title(self.areaFrame, "-", 4, columnICharac2, padx=2, bgColor="gray", fgColor="white", sticky=EW)})
                 if self._nameFrames[i] == '2 linhas':
                     newFrame['inputCharacter1'].removeWidget()
                     newFrame['inputCharacter2'].removeWidget()
@@ -348,13 +344,14 @@ class AreaFrame(Frame):
                     "inputFont": Input(self.areaFrame, "6", 5, columnInput, columnspan=2),
                     "inputSpacing": Input(self.areaFrame, "6", 6, columnInput, columnspan=2),
                 }
+                if self._nameFrames[i] == '1 linha':
+                    newFrame['inputSpacing'].removeWidget()
+                    newFrame.update({"inputSpacing":Title(self.areaFrame, "-", 6, columnInput, padx=2, bgColor="gray", fgColor="white", sticky=EW)})
                 if self._nameFrames[i] == '4 linhas':
                     newFrame['inputCharacter2'].removeWidget()
                     newFrame.update({"inputCharacter2":Title(self.areaFrame, "-", 4, columnICharac2, padx=2, bgColor="gray", fgColor="white", columnspan=2, sticky=W)})
             newFrame["fieldName"] = self._frameTitle
             self.subFrames.append(newFrame)
-        #for item in self.subFrames:
-        #    item['labelCoordx'].config()
         
         frameColumnspan = len(self.subFrames * 4)
         self.title = Title(self.areaFrame, self._frameTitle, 0, 0, pady=2, fgColor="white", columnspan=frameColumnspan, sticky=EW)
@@ -388,9 +385,10 @@ class AreaFrame(Frame):
         return self.title.getValue()
     
 class SearchButton(Button):
-    def __init__(self, master, text, padx, pady, inputIndex, row, column,bgColor='lightgray', bgActive="gray"):
-        logging.debug('*** Criando Instância de SearchButton ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
+    """
+        RF004 - Configura botões de pesquisa via explorador de arquivo
+    """
+    def __init__(self, master, text, padx, pady, inputIndex, row, column, action='file',bgColor='lightgray', bgActive="gray"):
         super().__init__()
         self.__master = master
         self.row = row
@@ -398,67 +396,100 @@ class SearchButton(Button):
         self.text = text
         self.padx = padx
         self.pady = pady
+        self.inputIndex = inputIndex
+        self.action = action
 
-        self.searchButton = Button(self.__master, text=self.text, bg=bgColor, activebackground=bgActive, padx=self.padx, pady=self.pady, command=lambda: inputs[inputIndex]['input'].setText(self.getFileName()))
+        self.searchButton = Button(self.__master, text=self.text, bg=bgColor, activebackground=bgActive, padx=self.padx, pady=self.pady)
+        self.setAction()
         self.searchButton.grid(row=self.row, column=self.column)
-        #self.searchButton.columnconfigure(self.column, weight=1)
-        logging.debug('*** Fim de Criação de Instância ***')
+        logging.info(f'*** Instância de SearchButton - linha: {self.row}, coluna {self.column}***')
+    
+    def setAction(self):
+        if self.action == 'file':
+            self.searchButton.configure(command=lambda: inputs[self.inputIndex]['input'].setText(self.getFileName()))
+        elif self.action == 'directory':
+            self.searchButton.configure(command=lambda: inputs[self.inputIndex]['input'].setText(self.getDirectoryName()))
     
     def getFileName(self):
-        filename = filedialog.askopenfilename(initialdir=os.getcwd(),filetypes = (("*ttf, *otf, *txt, *png files",".txt .png .otf .ttf"),("all files","*.*")))
+        filename = filedialog.askopenfilename(initialdir=locationPath,filetypes = (("*ttf, *otf, *txt, *png files",".txt .png .otf .ttf"),("all files","*.*")))
+
+        return filename
+    
+    def getDirectoryName(self):
+        filename = filedialog.askdirectory(initialdir=locationPath)
 
         return filename
 
 #--------------------------------------------------------------------------
 
 class ActionButton(Button):
-    def __init__(self, master, text, bgColor, fontColor, action, row, column, sticky=N, span=1, listInputs=[], paths=''):
-        logging.debug('*** Criando Instância de ActionButton ***')
-        logging.debug(f'Instância gerada no frame {master}, linha {row} e coluna {column}')
+    def __init__(self, master, text, bgColor, fontColor, action, row, column, width='40', sticky=N, span=1, listInputs=[], paths=''):
         super().__init__()
         self.__master = master
         self._action = action
         self.listInputs = listInputs
-        self.pathMainFont = paths[0] if paths else ''
-        self.pathItalicFont = paths[1] if paths else ''
+        self.pathBaseImage = paths[0] if paths else ''
+        self.pathMainFont = paths[1] if paths else ''
+        self.pathItalicFont = paths[2] if paths else ''
+        self.pathDirectory = paths[3] if paths else ''
+        self.pathDataText = paths[4] if paths else ''
         self.slice = SliceText()
         self.draw = ImageText()
 
-        self.actionButton = Button(self.__master, text=text, background=bgColor, fg=fontColor, width="40", font=("Consolas"), bd=2)
+        self.actionButton = Button(self.__master, text=text, background=bgColor, fg=fontColor, width=width, font=("Consolas"), bd=2)
         self.setAction()
         self.actionButton.grid(row=row, column=column, columnspan=span, sticky=sticky)
         self.actionButton.grid_columnconfigure(column, weight=0)
-        logging.debug('*** Fim de Criação de Instância ***')
+        logging.info(f'*** Instância de ActionButton - linha: {row}, coluna {column}***')
 
     def setAction(self):
         if self._action == 'limpar':
             self.actionButton.configure(command=lambda: self.clearInputs())
         elif self._action == 'preview':
             self.actionButton.configure(command=lambda: self.setPreview())
+        elif self._action == 'salvar config':
+            self.actionButton.configure(command=lambda: self.saveConfigs())
+        elif self._action == 'salvar paths':
+            self.actionButton.configure(command=lambda: self.savePaths())
+        elif self._action == 'gerar':
+            self.actionButton.configure(command=lambda: self.orderInfo())
+        elif self._action == 'confirmar':
+            self.actionButton.configure(command=lambda: self.confirmationWindow())
     
     def clearInputs(self):
         for item in self.listInputs:
             item['input'].clearText()
     
     def setPreview(self):
-        # Abrindo a imagem
-        preview_image = Image.open(os.path.join(os.getcwd(), r'src/images/preview.png'))
+        # RF005 - Gera prévia com a imagem indicada redimensionando-a
+        logging.info('*** Início de execução de preview')
+        previewImage = Image.open(self.pathBaseImage)
+        previewImage = previewImage.resize((533,300))
         for item in self.listInputs:
-            #if item['field'] == 'title' or item['field'] == 'genders':
             field = item['field']
             coordx = item['frame'].getCoordx()
             coordy = item['frame'].getCoordy()
             text = item['frame'].getText()
+            logging.info(f'Configurações do Campo {field}')
+            logging.info(f'Coordenadas(x, y): ({coordx}, {coordy})')
+            logging.info(f'Texto: {text}')
+            logging.info(f'Tamanho de Texto: {len(text)}')
             for frames in item['frame'].getSubFrames():
                 if frames['subField'] == '1 linha':
                     maxFont = int(frames['inputCharacter1'].getValue())
-                    maxLine1 = int(frames['inputCharacter2'].getValue())
                     fontHeight1 = int(frames['inputFont'].getValue())
-                    try:
+                    if 'Título' in field or 'Gêneros' in field or 'Animes' in field:
+                        maxLine1 = int(frames['inputCharacter2'].getValue())
+                    else:
+                        maxLine1 = 500
+                    if 'Animes' not in field:
                         fontHeight2 = int(frames['inputFont2'].getValue())
-                    except:
+                    else:
                         fontHeight2 = 0
+                        fontHeight3 = 500
                 elif frames['subField'] == '2 linhas':
+                    if field == 'title' or field == 'genders':
+                        maxLine2 = 500
                     fontHeight3 = int(frames['inputFont'].getValue())
                     textSpacing1 = int(frames['inputSpacing'].getValue())
                 elif frames['subField'] == '3 linhas':
@@ -471,11 +502,55 @@ class ActionButton(Button):
                     textSpacing3 = int(frames['inputSpacing'].getValue())
 
             if 'Animes' in field:
-                textToAdd = self.slice.threeSlice(text, len(text), maxLine1, maxLine2 if maxLine2 else 0, maxLine3 if maxLine3 else 0)
-                print(f'Paramêtros de Texto: texto: {text}, tamanho: {len(text)}, LimitC2: {maxLine1}, LimitC3: {maxLine2}, limitC4: {maxLine3}, texto final: {textToAdd}, coordx: {coordx}, coordy: {coordy}, campo: {field}')
+                if fontHeight1 > fontHeight3 and len(text) > maxLine1 and len(text) < maxLine2:
+                    for x in range(0, fontHeight1 - fontHeight3, 2):
+                        maxLine1 += 3
+                elif fontHeight3 > fontHeight4 and len(text) > maxLine2 and len(text) < maxLine3:
+                    for x in range(0, fontHeight3 - fontHeight4, 2):
+                        maxLine1 += 3
+                    for x in range(fontHeight3 - fontHeight4):
+                        maxLine2 += 5
+                elif fontHeight4 > fontHeight5 and len(text) > maxLine3:
+                    for x in range(0, fontHeight4 - fontHeight5, 2):
+                        if len(text) > 125 and len(text) <= 150:
+                            maxLine1 += 6
+                        elif len(text) > 150 and len(text) <= 160:
+                            maxLine1 += 8
+                        elif len(text) > 160:
+                            maxLine1 += 13
+                        else:
+                            maxLine1 += 5
+                    for x in range(fontHeight4 - fontHeight5):
+                        if len(text) > 125 and len(text) <= 150:
+                            maxLine2 += 7
+                        elif len(text) > 150 and len(text) <= 160:
+                            maxLine2 += 9
+                        elif len(text) > 160:
+                            maxLine2 += 13
+                        else:
+                            maxLine2 += 4
+                    for x in range(fontHeight4 - fontHeight5):
+                        if len(text) > 125 and len(text) <= 150:
+                            maxLine3 += 5
+                        elif len(text) > 150 and len(text) <= 160:
+                            maxLine3 += 6
+                        elif len(text) > 160:
+                            maxLine3 += 11
+                textToAdd = self.slice.threeSlice(text, len(text), maxLine1, maxLine2, maxLine3)
+                logging.info('Parâmetros de Caracteres')
+                logging.info(f'Limites:')
+                logging.info(f'Linha 1: {maxLine1}')
+                logging.info(f'Linha 2: {maxLine2}')
+                logging.info(f'Linha 3: {maxLine3}')
+                logging.info(f'Texto Final: {textToAdd}')
+
             else:
                 textToAdd = self.slice.twoSlice(text, len(text), maxFont, maxLine1=maxLine1)
-                print(f'Paramêtros de Texto: texto: {text}, tamanho: {len(text)}, LimitC1: {maxFont}, LimitC2: {maxLine1}, texto final: {textToAdd}, coordx: {coordx}, coordy: {coordy}, campo: {field}')
+                logging.info('Parâmetros de Caracteres')
+                logging.info(f'Limites:')
+                logging.info(f'Limite pra Fonte 1: {maxFont}')
+                logging.info(f'Limite Linha 1: {maxLine1}')
+                logging.info(f'Texto Final: {textToAdd}')
 
             if len(text) <= maxFont:
                 previewFontHeight = round((fontHeight1 / 1080) * 300)
@@ -496,187 +571,409 @@ class ActionButton(Button):
                 previewFontHeight = round((fontHeight5 / 1080) * 300)
                 textSpacing = textSpacing3
             
-            print(f'Fonte Height definida: {previewFontHeight} com textSpacing: {textSpacing} para o texto: {textToAdd}')
+            logging.info(f'Tamanho de Fonte do Preview: {previewFontHeight}')
+            logging.info(f'Spacing Definido: {textSpacing}')
             
             if field == 'title':
-                preview_coordx = (int(coordx) / 1920 * 523) + 5
+                previewCoordx = (int(coordx) / 1920 * 523) + 5
             else:
-                preview_coordx = (int(coordx) / 1920 * 523) + 2
-            preview_coordy = int(coordy) / 1080 * 300
+                previewCoordx = (int(coordx) / 1920 * 523) + 2
+            previewCoordy = int(coordy) / 1080 * 300
 
             # Definindo a fonte
             if 'Animes' in field:
                 textFont = self.draw.fontText(self.pathItalicFont, previewFontHeight, 'italic')
+                # Editando a imagem
+                self.draw.writeImage(previewImage, textToAdd, textFont, previewCoordx, previewCoordy, anchor='ma', spacing=textSpacing if textSpacing else 0, color=(245, 245, 245))
             else:
                 textFont = self.draw.fontText(self.pathMainFont, previewFontHeight)
-
-            # Editando a imagem
-            self.draw.writeImage(preview_image, textToAdd, textFont, preview_coordx, preview_coordy, anchor='mm' if item['field'] == 'title' else 'ma', spacing=textSpacing if textSpacing else 0)
-            """ 
-                if isinstance(limitCharacter2, int):
-                    
-                    # Tratando texto
-                    twoLines = ['title', 'genders', 'orinalSource', 'platform', 'premiere']
-                    text = frames['inputCampo'].getValue()
-                    if field in twoLines:
-                        text = self.slice.twoSlice(text, len(text), int(frames['inputCharacter1'].getValue()))
-                    else:
-                        text = self.slice.threeSlice(text, len(text), int(frames['inputCharacter1'].getValue()), limitCharacter2)
-                    #text_to_add = frames['inputCampo'].getValue()
-
-                    # Coordenadas adaptadas pra preview
-                    limitCharacter = int(frames['inputCharacter1'].getValue())
-                    if len(text) <= limitCharacter:
-                        previewFontHeight = round((int(frames['inputFont'].getValue()) / 1080) * 300)
-                    elif len(text) > limitCharacter and len(text) <= int(frames['inputCharacter2'].getValue()):
-                        previewFontHeight = round((int(frames['inputFont2'].getValue()) / 1080) * 300)
-                    #preview_font_height = round((int(item['inputFont'].getValue()) / 1080) * 300)
-                    preview_coordx = int(coordx) / 1920 * 523
-                    preview_coordy = int(coordy) / 1080 * 300
-
-                    # Definindo a fonte
-                    text_font = ImageFont.truetype(os.path.join(os.getcwd(), r'src/fonts/coolvetica rg.otf'), previewFontHeight)
-
-                    # Editando a imagem
-                    preview_image_edit = ImageDraw.Draw(preview_image)
-                    preview_image_edit.text((preview_coordx, preview_coordy), text, anchor="mm", font=text_font)
-
-
-                    # Limpe a entry box
-                    #item['inputCampo'].delete(0, END)
-                    #item['inputCampo'].insert(0, "Saving File...")
-                
-                else:
-                    pass
-                """
+                # Editando a imagem
+                self.draw.writeImage(previewImage, textToAdd, textFont, previewCoordx, previewCoordy, anchor='mm' if item['field'] == 'title' or item['field'] == 'premiere' else 'ma', spacing=textSpacing if textSpacing else 0)
         # Salvando a imagem
-        preview_image.save(os.path.join(os.getcwd(), r'src/images/new_preview.png'))
+        previewImage.save(os.path.join(locationPath, r'src/images/new_preview.png'))
         # Espere alguns segundos e mostre a imagem
-        image_preview.after(2000, self.show_pic(os.path.join(os.getcwd(), r'src/images/new_preview.png')))
+        imagePreview.after(2000, self.show_pic(os.path.join(locationPath, r'src/images/new_preview.png')))
 
     def show_pic(self, pathNewPic):
-        global new_preview
-        new_preview = PhotoImage(file=pathNewPic)
-        image_preview.config(image=new_preview)
+        global newPreview
+        newPreview = PhotoImage(file=pathNewPic)
+        imagePreview.config(image=newPreview)
     
     def setPaths(self, newPaths=''):
-        self.pathMainFont = newPaths[0] if newPaths else ''
-        self.pathItalicFont = newPaths[1] if newPaths else ''
+        self.pathBaseImage = newPaths[0] if newPaths else ''
+        self.pathMainFont = newPaths[1] if newPaths else ''
+        self.pathItalicFont = newPaths[2] if newPaths else ''
+        self.pathDirectory = newPaths[3] if newPaths else ''
+        self.pathDataText = newPaths[4] if newPaths else ''
+    
+    def confirmationWindow(self):
+        window = Toplevel()
+        window.title('Confirmação de Salvamento')
+        
+        message = Title(window, 'Você deseja realmente salvar essas configurações?', 0, 0, 5, 20, columnspan=2, sticky=EW)
+        buttonY = ActionButton(window, "Sim", '#7BFF78', '#0D650B', 'salvar config', 1, 0, width='10', sticky=EW, listInputs= self.listInputs)
+        buttonN = Button(window, text='Não', background='#FF7878', fg='#650B0B', width="10", font=("Consolas"), bd=2, command=lambda: window.destroy())
+        buttonN.grid(row=1, column=1, sticky=EW)
+        # Dimensao da janela do aplicativo
+        dj = (300, 100)
+        # Resolucao do Monitor
+        rm = (window.winfo_screenwidth(), window.winfo_screenheight())
+        # Posicao da Janela do Aplicativo
+        pj = (rm[0]/2 - dj[0]/2, (rm[1]/2 - dj[1]/2) - 30)
+        # Centralizando a Janela com relação ao monitor
+        window.geometry("{}x{}+{}+{}".format(dj[0], dj[1], int(pj[0]), int(pj[1])))
+        # Responsividade
+        window.grid_rowconfigure([0, 1], weight=1)
+        window.grid_columnconfigure([0, 1], weight=1)
+    
+    def savePaths(self):
+        # RF009 -  Salvamento de 'paths' em texto simples
+        fileLocation = re.compile(r'src.+')
+        barLocation = re.compile(r'[/]+')
+        with open(os.path.join(locationPath, r'src\data\paths.txt'), 'w') as paths:
+            for item in self.listInputs:
+                if 'src' in item['input'].getValue():
+                    path = barLocation.sub('\\\\', item['input'].getValue())
+                    paths.write(fileLocation.search(path).group() + '\n')
+                else:
+                    paths.write('')
+    
+    def saveConfigs(self):
+        # RF009 - Salvamento de configurações de ajuste em texto simples
+        with open(os.path.join(locationPath, r'src\data\configs_test.txt'), 'w') as configs:
+            for item in self.listInputs:
+                field = item['frame'].getTitle()
+                #print(field)
+                configs.write(f"campo: {item['frame'].getTitle()}\n")
+                configs.write(f"coordx: {item['frame'].getCoordx()}\n")
+                configs.write(f"coordy: {item['frame'].getCoordy()}\n")
+                for frames in item['frame'].getSubFrames():
+                    if frames['subField'] == '1 linha':
+                        if 'Animes' not in field:
+                            configs.write(f"1inputCharacter1: {frames['inputCharacter1'].getValue()}\n")
+                        if 'Título' in field or 'Gêneros' in field or 'Animes' in field:
+                            configs.write(f"1inputCharacter2: {frames['inputCharacter2'].getValue()}\n")
+                        configs.write(f"1inputFont: {frames['inputFont'].getValue()}\n")
+                        if 'Animes' not in field:
+                            if 'Data' in field:
+                                configs.write(f"1inputFont2: {frames['inputFont2'].getValue()}")
+                            else:
+                                configs.write(f"1inputFont2: {frames['inputFont2'].getValue()}\n")
+                    elif frames['subField'] == '2 linhas':
+                        if 'Animes' in field:
+                            configs.write(f"2inputCharacter2: {frames['inputCharacter2'].getValue()}\n")
+                        configs.write(f"2inputFont: {frames['inputFont'].getValue()}\n")
+                        configs.write(f"2inputSpacing: {frames['inputSpacing'].getValue()}\n")
+                    elif frames['subField'] == '3 linhas':
+                        configs.write(f"3inputCharacter2: {frames['inputCharacter2'].getValue()}\n")
+                        configs.write(f"3inputFont: {frames['inputFont'].getValue()}\n")
+                        configs.write(f"3inputSpacing: {frames['inputSpacing'].getValue()}\n")
+                    elif frames['subField'] == '4 linhas':
+                        configs.write(f"4inputFont: {frames['inputFont'].getValue()}\n")
+                        configs.write(f"4inputSpacing: {frames['inputSpacing'].getValue()}\n")
+                if 'Data' not in field:
+                    configs.write('\n')
+        logging.info('*** Configurações Salvas ***')
+        self.__master.destroy()
+    
+    def orderInfo(self):
+        # Lista que conterá as informações de cada anime
+        animesList = []
+        # Informações a serem coletadas de cada anime
+        animesInfo = {
+            'title': '',
+            'genders': '',
+            'studioName': '',
+            'studioAnimes': '',
+            'directorName': '',
+            'directorAnimes': '',
+            'composerName': '',
+            'composerAnimes': '',
+            'originalSource': '',
+            'platform': '',
+            'premiere': '',
+        }
+
+        with open(self.pathDataText) as fileObj:
+            infoAnimes = fileObj.readlines()
+            infoAnimes = [line.rstrip() for line in infoAnimes]
+            while '' in infoAnimes:
+                infoAnimes.remove('')
+            if infoAnimes.count('=='):
+                for item in infoAnimes:
+                    if item == '==':
+                        infoAnimes[infoAnimes.index('==')] = ''
+        
+        for x in range(round(len(infoAnimes)/11)):
+            animesItems = infoAnimes[x*11:]
+            item = 0
+            for key in animesInfo.keys():
+                animesInfo[key] = animesItems[item]
+                item += 1
+            animesList.append(animesInfo)
+            animesInfo = {
+                        'title': '',
+                        'genders': '',
+                        'studioName': '',
+                        'studioAnimes': '',
+                        'directorName': '',
+                        'directorAnimes': '',
+                        'composerName': '',
+                        'composerAnimes': '',
+                        'originalSource': '',
+                        'platform': '',
+                        'premiere': '',
+                    }
+        self.createImage(animesList)
+
+    def createImage(self, animesList):
+        logging.info('Gerando Imagens Finais')
+        for anime in animesList:
+            # Definindo nome da Imagem
+            imageName = anime['title']
+            # Removendo caracteres proibidos em nome de arquivo
+            forbidden = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
+            imageName = list(imageName)
+            for symbol in forbidden:
+                if symbol in imageName:
+                    while symbol in imageName:
+                        imageName.remove(symbol)
+            imageName = ''.join(imageName) + '.png'
+
+            finalImage = Image.open(self.pathBaseImage)
+            for key, value in anime.items():
+                for item in self.listInputs:
+                    if key == item['field']:
+                        field = item['field']
+                        coordx = item['frame'].getCoordx()
+                        coordy = item['frame'].getCoordy()
+                        text = value
+                        for frames in item['frame'].getSubFrames():
+                            if frames['subField'] == '1 linha':
+                                maxFont = int(frames['inputCharacter1'].getValue())
+                                fontHeight1 = int(frames['inputFont'].getValue())
+                                try:
+                                    maxLine1 = int(frames['inputCharacter2'].getValue())
+                                except:
+                                    maxLine1 = 500
+                                try:
+                                    fontHeight2 = int(frames['inputFont2'].getValue())
+                                except:
+                                    fontHeight2 = 0
+                                    fontHeight3 = 500
+                            elif frames['subField'] == '2 linhas':
+                                if field == 'title' or field == 'genders':
+                                    maxLine2 = 500
+                                fontHeight3 = int(frames['inputFont'].getValue())
+                                textSpacing1 = int(frames['inputSpacing'].getValue())
+                            elif frames['subField'] == '3 linhas':
+                                maxLine2 = int(frames['inputCharacter1'].getValue())
+                                maxLine3 = int(frames['inputCharacter2'].getValue())
+                                fontHeight4 = int(frames['inputFont'].getValue())
+                                textSpacing2 = int(frames['inputSpacing'].getValue())
+                            elif frames['subField'] == '4 linhas':
+                                fontHeight5 = int(frames['inputFont'].getValue())
+                                textSpacing3 = int(frames['inputSpacing'].getValue())
+
+                        if 'Animes' in field:
+                            if fontHeight1 > fontHeight3 and len(text) > maxLine1 and len(text) < maxLine2:
+                                for x in range(0, fontHeight1 - fontHeight3, 2):
+                                    maxLine1 += 3
+                            elif fontHeight3 > fontHeight4 and len(text) > maxLine2 and len(text) < maxLine3:
+                                for x in range(0, fontHeight3 - fontHeight4, 2):
+                                    maxLine1 += 3
+                                for x in range(fontHeight3 - fontHeight4):
+                                    maxLine2 += 5
+                            elif fontHeight4 > fontHeight5 and len(text) > maxLine3:
+                                for x in range(0, fontHeight4 - fontHeight5, 2):
+                                    if len(text) > 125:
+                                        maxLine1 += 6
+                                    if len(text) > 125 and len(text) <= 150:
+                                        maxLine1 += 6
+                                    elif len(text) > 150 and len(text) <= 160:
+                                        maxLine1 += 8
+                                    elif len(text) > 160:
+                                        maxLine1 += 13
+                                    else:
+                                        maxLine1 += 5
+                                for x in range(fontHeight4 - fontHeight5):
+                                    if len(text) > 125 and len(text) <= 150:
+                                        maxLine2 += 7
+                                    elif len(text) > 150 and len(text) <= 160:
+                                        maxLine2 += 9
+                                    elif len(text) > 160:
+                                        maxLine2 += 13
+                                    else:
+                                        maxLine2 += 4
+                                for x in range(fontHeight4 - fontHeight5):
+                                    if len(text) > 125 and len(text) <= 150:
+                                        maxLine3 += 4
+                                    elif len(text) > 150 and len(text) <= 160:
+                                        maxLine3 += 6
+                                    elif len(text) > 160:
+                                        maxLine3 += 11
+                            textToAdd = self.slice.threeSlice(text, len(text), maxLine1, maxLine2, maxLine3)
+
+                        else:
+                            textToAdd = self.slice.twoSlice(text, len(text), maxFont, maxLine1=maxLine1)
+
+                        if len(text) <= maxFont:
+                            finalFontHeight = fontHeight1
+                            textSpacing = 0
+                        elif len(text) > maxFont and len(text) <= maxLine1:
+                            if 'Animes' in item['field']:
+                                finalFontHeight = fontHeight1
+                            else:
+                                finalFontHeight = fontHeight2
+                            textSpacing = 0
+                        elif len(text) > maxLine1 and len(text) <= maxLine2:
+                            finalFontHeight = fontHeight3
+                            textSpacing = textSpacing1
+                        elif len(text) > maxLine2 and len(text) <= maxLine3:
+                            finalFontHeight = fontHeight4
+                            textSpacing = textSpacing2
+                        elif len(text) > maxLine3:
+                            finalFontHeight = fontHeight5
+                            textSpacing = textSpacing3
+                        
+                        finalCoordx = int(coordx)
+                        finalCoordy = int(coordy)
+
+                        # Definindo a fonte
+                        if 'Animes' in field:
+                            textFont = self.draw.fontText(self.pathItalicFont, finalFontHeight, 'italic')
+                            # Editando a imagem
+                            self.draw.writeImage(finalImage, textToAdd, textFont, finalCoordx, finalCoordy, anchor='ma', spacing=textSpacing if textSpacing else 0, color=(245, 245, 245))
+                        else:
+                            textFont = self.draw.fontText(self.pathMainFont, finalFontHeight)
+                            # Editando a imagem
+                            self.draw.writeImage(finalImage, textToAdd, textFont, finalCoordx, finalCoordy, anchor='mm' if item['field'] == 'title' or item['field'] == 'premiere' else 'ma', spacing=textSpacing if textSpacing else 0)
+            # Salvando a imagem
+            logging.info(f'Gerada imagem "{imageName}"')
+            finalImage.save(os.path.join(self.pathDirectory, imageName))
+
+        
 
 
-# Funções Assíncronas de Check-up
+# RF003 - Funções Assíncronas de Check-up
 async def verifyInputs():
     while True:
         try:
             for item in inputs:
                 # Passando os paths para o escopo global do programa
-                global pathImageBase, pathFontPrincipal, pathFontItalic, pathDirectory
+                global pathBaseImage, pathMainFont, pathItalicFont, pathDirectory, pathDataText
                 if item['type'] == 'image':
-                    pathImageBase = item['input'].getValue()
+                    pathBaseImage = item['input'].getValue()
                 elif item['type'] == 'font1':
-                    pathFontPrincipal = item['input'].getValue()
+                    pathMainFont = item['input'].getValue()
                 elif item['type'] == 'font2':
-                    pathFontItalic = item['input'].getValue()
+                    pathItalicFont = item['input'].getValue()
                 elif item['type'] == 'directory':
                     pathDirectory = item['input'].getValue()
-                buttonDemo.setPaths((pathFontPrincipal, pathFontItalic))
+                elif item['type'] == 'text':
+                    pathDataText = item['input'].getValue()
+                demoButton.setPaths((pathBaseImage, pathMainFont, pathItalicFont, '', ''))
+                runButton.setPaths((pathBaseImage, pathMainFont, pathItalicFont, pathDirectory, pathDataText))
                 # Verificação de validade
                 if item['type'] == 'image':
                     if item["input"].getValue():
                         if item["input"].verification.isImage(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\accept.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\accept.png")))
                             item["warning"].setMessage("Imagem encontrada!")
                         elif item["input"].verification.isImage(item["input"].getValue()) == None:
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("Esperava algo como C:/path/image.png")
                         elif not item["input"].verification.isImage(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("A imagem deve ser .png")
                     else:
-                        item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                        item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                         item["warning"].setMessage("Path não identificado")
 
                 elif 'font' in item['type']:
                     if item["input"].getValue():
                         if item["input"].verification.isFont(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\accept.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\accept.png")))
                             item["warning"].setMessage("Fonte encontrada!")
                         elif item["input"].verification.isFont(item["input"].getValue()) == None:
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("Esperava algo como C:/path/fonte.ttf")
                         elif not item["input"].verification.isFont(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("A fonte deve ser .ttf ou .otf")
                     else:
-                        item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                        item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                         item["warning"].setMessage("Path não identificado")
 
                 elif item['type'] == 'directory':
                     if item["input"].getValue():
                         if item["input"].verification.isDirectory(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\accept.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\accept.png")))
                             item["warning"].setMessage("Pasta encontrada!")
                         elif item["input"].verification.isDirectory(item["input"].getValue()) == None:
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("Esperava algo como C:/path/pasta/")
                         elif not item["input"].verification.isDirectory(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
-                            item["warning"].setMessage("Não é uma pasta")
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
+                            item["warning"].setMessage("Deve ser uma pasta")
+                    else:
+                        item['warning'].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
+                        item['warning'].setMessage("Pasta não identificada")
 
                 elif item['type'] == 'text':
                     if item["input"].getValue():
                         if item["input"].verification.isText(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\accept.png")))
-                            item["warning"].setMessage("Texto encontrado!")
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\accept.png")))
+                            item["warning"].setMessage("Informação encontrada!")
                         elif item["input"].verification.isText(item["input"].getValue()) == None:
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("Esperava algo como C:/path/texto.txt")
                         elif not item["input"].verification.isText(item["input"].getValue()):
-                            item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                            item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                             item["warning"].setMessage("Deve ser um arquivo .txt")
-                            
                     else:
-                        item["warning"].setImage(r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")))
+                        item["warning"].setImage(r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")))
                         item["warning"].setMessage("Path não identificado")
             await asyncio.sleep(1)
         except asyncio.CancelledError:
             break
 
+# RF006 - Função assíncrona para contagem de caracteres
 async def showLength():
     while True:
         try:
-            for item in preview_inputs:
+            for item in previewInputs:
                 if item['input'].getValue():
                     item['size'].setName(f"T: {len(item['input'].getValue())}")
             for item in previewFrames:
                 for frame in item['frame'].getSubFrames():
                     if frame["subField"] == "1 linha":
                         if frame["inputCharacter2"].getValue():
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "2 linhas":
-                                    second_frame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "2 linhas":
+                                    secondFrame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
                         else:
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "2 linhas":
-                                    second_frame["inputCharacter1"].setName("0")
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "2 linhas":
+                                    secondFrame["inputCharacter1"].setName("0")
                     elif frame["subField"] == "2 linhas":
                         if frame["inputCharacter2"].getValue():
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "3 linhas":
-                                    second_frame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "3 linhas":
+                                    secondFrame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
                         else:
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "3 linhas":
-                                    second_frame["inputCharacter1"].setName("0")
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "3 linhas":
+                                    secondFrame["inputCharacter1"].setName("0")
                     elif frame["subField"] == "3 linhas":
                         if frame["inputCharacter2"].getValue():
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "4 linhas":
-                                    second_frame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "4 linhas":
+                                    secondFrame["inputCharacter1"].setName(frame["inputCharacter2"].getValue())
                         else:
-                            for second_frame in item['frame'].getSubFrames():
-                                if second_frame["subField"] == "4 linhas":
-                                    second_frame["inputCharacter1"].setName("0")
+                            for secondFrame in item['frame'].getSubFrames():
+                                if secondFrame["subField"] == "4 linhas":
+                                    secondFrame["inputCharacter1"].setName("0")
             await asyncio.sleep(1)
         except asyncio.CancelledError:
             break
@@ -693,6 +990,10 @@ def _asyncio_thread():
 #--------------------------------------------------------------------------
 # Início
 if __name__ == '__main__':
+    # Paths de localização
+    developmentPath = os.getcwd()
+    productionPath = os.path.split(os.path.split(os.getcwd())[0])[0]
+    locationPath = developmentPath
     # Asyncio
     async_loop = asyncio.get_event_loop()
     #queue = asyncio.Queue()
@@ -702,217 +1003,217 @@ if __name__ == '__main__':
 
     #--------------------------------------------------------------------------
     # Dimensao da janela do aplicativo
-    dj = (700, 1000)
+    dj = (1000, 1000)
     # Resolucao do Monitor
     rm = (root.winfo_screenwidth(), root.winfo_screenheight())
     # Posicao da Janela do Aplicativo
-    pj = (rm[0]/2 - dj[0]/2, rm[1]/2 - dj[1]/2)
+    pj = (rm[0]/2 - dj[0]/2, (rm[1]/2 - dj[1]/2) - 30)
     # Centralizando a Janela com relação ao monitor
     root.geometry("{}x{}+{}+{}".format(dj[0], dj[1], int(pj[0]), int(pj[1])))
     #---------------------------------------------------------------------------
     # Definindo Frame de Entrada de Dados
-    input_frame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
+    inputFrame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
 
-    # Colocando Entrada de Paths de Arquivos
+    # RF001 - Colocando Entrada de Paths de Arquivos
     inputs = [
         {
             "type": 'image', 
-            "label":Title(input_frame, "Imagem Base:", 0, 1),
-            "input":Input(input_frame, "50", 0, 2, r'{}'.format(os.path.join(os.getcwd(), r"src\images\test-cdt.png"))),
-            "warning":VisualWarning(input_frame, r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")), 0, 0),
-            "button":SearchButton(input_frame, "...", 4, 2, 0, 0, 3),
+            "label":Title(inputFrame, "Imagem Base:", 0, 1),
+            "input":Input(inputFrame, "50", 0, 2),
+            "warning":VisualWarning(inputFrame, r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")), 0, 0),
+            "button":SearchButton(inputFrame, "...", 4, 2, 0, 0, 3),
         },
         {
             "type": 'font1',
-            "label":Title(input_frame, "Fonte Principal:", 1, 1),
-            "input":Input(input_frame, "50", 1, 2, r'{}'.format(os.path.join(os.getcwd(), r"src\fonts\coolvetica rg.otf"))),
-            "warning":VisualWarning(input_frame, r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")), 1, 0),
-            "button":SearchButton(input_frame, "...", 4, 2, 1, 1, 3),
+            "label":Title(inputFrame, "Fonte Principal:", 1, 1),
+            "input":Input(inputFrame, "50", 1, 2),
+            "warning":VisualWarning(inputFrame, r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")), 1, 0),
+            "button":SearchButton(inputFrame, "...", 4, 2, 1, 1, 3),
         },
         {
             "type": 'font2',
-            "label":Title(input_frame, "Fonte com Itálico:", 2, 1),
-            "input":Input(input_frame, "50", 2, 2, r'{}'.format(os.path.join(os.getcwd(), r"src\fonts\coolvetica rg it.otf"))),
-            "warning":VisualWarning(input_frame, r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")), 2, 0),
-            "button":SearchButton(input_frame, "...", 4, 2, 2, 2, 3),
+            "label":Title(inputFrame, "Fonte com Itálico:", 2, 1),
+            "input":Input(inputFrame, "50", 2, 2),
+            "warning":VisualWarning(inputFrame, r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")), 2, 0),
+            "button":SearchButton(inputFrame, "...", 4, 2, 2, 2, 3),
         },
         {
             "type": 'directory',
-            "label":Title(input_frame, "Local de Destino:", 3, 1),
-            "input":Input(input_frame, "50", 3, 2, r'{}'.format(os.path.join(os.getcwd(), r"src\images"))),
-            "warning":VisualWarning(input_frame, r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")), 3, 0),
-            "button":SearchButton(input_frame, "...", 4, 2, 3, 3, 3),
+            "label":Title(inputFrame, "Local de Destino:", 3, 1),
+            "input":Input(inputFrame, "50", 3, 2),
+            "warning":VisualWarning(inputFrame, r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")), 3, 0),
+            "button":SearchButton(inputFrame, "...", 4, 2, 3, 3, 3, 'directory'),
         },
         {
             "type": 'text',
-            "label":Title(input_frame, "Info Animes:", 4, 1),
-            "input":Input(input_frame, "50", 4, 2, r'{}'.format(os.path.join(os.getcwd(), r"src\data\text.txt"))),
-            "warning":VisualWarning(input_frame, r'{}'.format(os.path.join(os.getcwd(), r"src\icons\cancel.png")), 4, 0),
-            "button":SearchButton(input_frame, "...", 4, 2, 4, 4, 3),
+            "label":Title(inputFrame, "Info Animes:", 4, 1),
+            "input":Input(inputFrame, "50", 4, 2),
+            "warning":VisualWarning(inputFrame, r'{}'.format(os.path.join(locationPath, r"src\icons\cancel.png")), 4, 0),
+            "button":SearchButton(inputFrame, "...", 4, 2, 4, 4, 3),
         },
     ]
 
     # Botões
-    #button1 = ActionButton(input_frame, 'VALIDAR', '#7BFF78', '#0D650B', 'validar', 5, 0, span=2, listInputs=inputs)
-    button1 = ActionButton(input_frame, 'APAGAR', '#FF7878', '#650B0B', 'limpar', 5, 0, span=4, listInputs=inputs)
+    saveButton = ActionButton(inputFrame, 'SALVAR PATHS', 'lightblue', 'blue', 'salvar paths', 5, 0, span=2, listInputs=inputs, sticky=E)
+    deleteButton = ActionButton(inputFrame, 'APAGAR', '#FF7878', '#650B0B', 'limpar', 5, 2, span=2, listInputs=inputs, sticky=W)
+    
+    # RF010 - Busca de paths salvos anteriormente
+    if os.path.isfile(os.path.join(locationPath, r'src\data\paths.txt')):
+        with open(os.path.join(locationPath, r'src\data\paths.txt')) as fileObject:
+            defaultPaths = fileObject.readlines()
+            defaultPaths = [line.rstrip() for line in defaultPaths]
+            i = 0
+            for item in inputs:
+                item["input"].setText(os.path.join(locationPath, defaultPaths[i]))
+                i += 1
 
     # Inserindo Frame de Entrada de Dados
-    input_frame.grid(row=0, column=0, sticky=EW)
+    inputFrame.grid(row=0, column=0, sticky=EW)
 
     #---------------------------------------------------------------------------
     # Definindo Frame de Preview da Imagem
-    preview_frame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
+    previewFrame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
 
-    # Imagem
-    base_image = PhotoImage(file=os.path.join(os.getcwd(), r'src/images/preview.png'))
-    image_preview = Label(preview_frame, image=base_image)
-    image_preview.grid(row=0, column=0)
+    # RF005 - Procura pela imagem 'preview' para exibir primeiro como padrão
+    if '.png' in inputs[0]["input"].getValue():
+        preview = Image.open(inputs[0]["input"].getValue())
+        preview = preview.resize((533, 300))
+        preview.save(os.path.join(locationPath, r'src/images/preview.png'))
+        baseImage = PhotoImage(file=os.path.join(locationPath, r'src/images/preview.png'))
+    else:
+        baseImage = PhotoImage(file=os.path.join(locationPath, r'src/images/preview.png'))
+    imagePreview = Label(previewFrame, image=baseImage)
+    imagePreview.grid(row=0, column=0)
 
-    preview_frame.grid(row=1, column=0, sticky=EW)
+    previewFrame.grid(row=1, column=0, sticky=EW)
 
     #---------------------------------------------------------------------------
     # Definindo Frame de Textos de Teste da Imagem
-    preview_texts = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
+    previewTexts = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief="groove")
 
-    preview_inputs = [
+    # RF006 - Campos de inserção de texto-modelo
+    previewInputs = [
         {
             "field": "title",
-            "title":Title(preview_texts, "1. Título:", 0, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 0, 1),
-            "size":Title(preview_texts, "", 0, 2),
+            "title":Title(previewTexts, "1. Título:", 0, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 0, 2),
+            "size":Title(previewTexts, "", 0, 3),
         },
         {
             "field": "genders",
-            "title":Title(preview_texts, "2. Gêneros:", 1, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 1, 1),
-            "size":Title(preview_texts, "", 1, 2),
+            "title":Title(previewTexts, "2. Gêneros:", 1, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 1, 2),
+            "size":Title(previewTexts, "", 1, 3),
         },
         {
             "field": "studioName",
-            "title":Title(preview_texts, "3. Nome do Estúdio:", 2, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 2, 1),
-            "size":Title(preview_texts, "", 2, 2),
+            "title":Title(previewTexts, "3. Nome do Estúdio:", 2, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 2, 2),
+            "size":Title(previewTexts, "", 2, 3),
         },
         {
             "field": "studioAnimes",
-            "title":Title(preview_texts, "4. Animes do Estúdio:", 3, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 3, 1),
-            "size":Title(preview_texts, "", 3, 2),
+            "title":Title(previewTexts, "4. Animes do Estúdio:", 3, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 3, 2),
+            "size":Title(previewTexts, "", 3, 3),
         },
         {
             "field": "directorName",
-            "title":Title(preview_texts, "5. Nome do Diretor:", 4, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 4, 1),
-            "size":Title(preview_texts, "", 4, 2),
+            "title":Title(previewTexts, "5. Nome do Diretor:", 4, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 4, 2),
+            "size":Title(previewTexts, "", 4, 3),
         },
         {
             "field": "directorAnimes",
-            "title":Title(preview_texts, "6. Obras do Diretor:", 5, 0, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 5, 1),
-            "size":Title(preview_texts, "", 5, 2),
+            "title":Title(previewTexts, "6. Obras do Diretor:", 5, 1, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 5, 2),
+            "size":Title(previewTexts, "", 5, 3),
         },
         {
             "field": "composerName",
-            "title":Title(preview_texts, "7. Nome do Compositor:", 0, 3, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 0, 4),
-            "size":Title(preview_texts, "", 0, 5),
-        },
-        {
-            "field": "ComposerAnimes",
-            "title":Title(preview_texts, "8. Obras do Compositor:", 1, 3, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 1, 4),
-            "size":Title(preview_texts, "", 1, 5),
-        },
-        {
-            "field": "originalSource",
-            "title":Title(preview_texts, "9. Origem:", 2, 3, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 2, 4),
-            "size":Title(preview_texts, "", 2, 5),
-        },
-        {
-            "field": "platform",
-            "title":Title(preview_texts, "10. Plataforma:", 3, 3, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 3, 4),
-            "size":Title(preview_texts, "", 3, 5),
-        },
-        {
-            "field": "premiere",
-            "title":Title(preview_texts, "11. Data de Estréia:", 4, 3, padx=5, sticky=W),
-            "input":Input(preview_texts, "40", 4, 4),
-            "size":Title(preview_texts, "", 4, 5),
-        },
-    ]
-    # Texto de Teste
-    """ # Labels
-    title_label = Label(preview_texts, text="1. Título:", padx=5)
-    title_label.grid(row=0, column=0)
-
-    # Inputs
-    title_input = Input(preview_texts, "40", 0, 1)
-    #title_input.grid(row=0, column=1, sticky=EW, pady=10)
-
-    # Tamanho do valor do Input
-    text_size = title_input.get()
-    size_label = Label(preview_texts, text=f"T: {text_size}")
-    size_label.grid(row=0, column=2) """
-
-    preview_texts.grid(row=2, column=0, sticky=EW)
-
-    #---------------------------------------------------------------------------
-    # Layout de Ajuste finos
-    adjust_canvas = Canvas(root, width=dj[0])
-    adjust_frame = Frame(adjust_canvas)
-
-    # Criando Labels
-    #title_label = Title(adjust_frame, "Título:", 0, 0)
-    #title_label.grid(row=0, column=0)
-
-
-    # Frames onde serão ajustadas as coordenadas e tamanho de fonte
-    previewFrames = [
-        {
-            "field": "title",
-            "frame": AreaFrame(adjust_frame, "Título:", preview_inputs[0]['input'], ("1 linha", "2 linhas"), 0, 0)
-        },
-        {
-            "field": "genders",
-            "frame": AreaFrame(adjust_frame, "Gêneros:", preview_inputs[1]['input'], ("1 linha", "2 linhas"), 1, 0)
-        },
-        {
-            "field": "studioName",
-            "frame": AreaFrame(adjust_frame, "Nome do Estúdio:", preview_inputs[2]['input'], ("1 linha",), 2, 0)
-        },
-        {
-            "field": "studioAnimes",
-            "frame": AreaFrame(adjust_frame, "Animes do Estúdio:", preview_inputs[3]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 3, 0)
-        },
-        {
-            "field": "directorName",
-            "frame": AreaFrame(adjust_frame, "Nome do Diretor:", preview_inputs[4]['input'], ("1 linha",), 4, 0)
-        },
-        {
-            "field": "directorAnimes",
-            "frame": AreaFrame(adjust_frame, "Animes do Diretor:", preview_inputs[5]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 5, 0)
-        },
-        {
-            "field": "composerName",
-            "frame": AreaFrame(adjust_frame, "Nome do Compositor:", preview_inputs[6]['input'], ("1 linha",), 6, 0)
+            "title":Title(previewTexts, "7. Nome do Compositor:", 0, 4, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 0, 5),
+            "size":Title(previewTexts, "", 0, 6),
         },
         {
             "field": "composerAnimes",
-            "frame": AreaFrame(adjust_frame, "Animes do Compositor:", preview_inputs[7]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 7, 0)
+            "title":Title(previewTexts, "8. Obras do Compositor:", 1, 4, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 1, 5),
+            "size":Title(previewTexts, "", 1, 6),
         },
         {
             "field": "originalSource",
-            "frame": AreaFrame(adjust_frame, "Origem:", preview_inputs[8]['input'], ("1 linha",), 8, 0)
-        },        
+            "title":Title(previewTexts, "9. Origem:", 2, 4, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 2, 5),
+            "size":Title(previewTexts, "", 2, 6),
+        },
+        {
+            "field": "platform",
+            "title":Title(previewTexts, "10. Plataforma:", 3, 4, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 3, 5),
+            "size":Title(previewTexts, "", 3, 6),
+        },
+        {
+            "field": "premiere",
+            "title":Title(previewTexts, "11. Data de Estréia:", 4, 4, padx=5, sticky=W),
+            "input":Input(previewTexts, "40", 4, 5),
+            "size":Title(previewTexts, "", 4, 6),
+        },
+    ]
+    # Texto de Teste
+    previewTexts.grid(row=2, column=0, sticky=EW)
+
+    #-----------------------------------------------------------------------
+    # Layout de Ajuste finos
+    adjustCanvas = Canvas(root, width=dj[0])
+    adjustFrames = Frame(adjustCanvas)
+
+
+    # RF007 - Frames onde serão ajustadas as coordenadas e tamanho de fonte
+    previewFrames = [
+        {
+            "field": "title",
+            "frame": AreaFrame(adjustFrames, "Título:", previewInputs[0]['input'], ("1 linha", "2 linhas"), 0, 0)
+        },
+        {
+            "field": "genders",
+            "frame": AreaFrame(adjustFrames, "Gêneros:", previewInputs[1]['input'], ("1 linha", "2 linhas"), 1, 0)
+        },
+        {
+            "field": "studioName",
+            "frame": AreaFrame(adjustFrames, "Nome do Estúdio:", previewInputs[2]['input'], ("1 linha",), 2, 0)
+        },
+        {
+            "field": "studioAnimes",
+            "frame": AreaFrame(adjustFrames, "Animes do Estúdio:", previewInputs[3]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 3, 0)
+        },
+        {
+            "field": "directorName",
+            "frame": AreaFrame(adjustFrames, "Nome do Diretor:", previewInputs[4]['input'], ("1 linha",), 4, 0)
+        },
+        {
+            "field": "directorAnimes",
+            "frame": AreaFrame(adjustFrames, "Animes do Diretor:", previewInputs[5]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 5, 0)
+        },
         {
             "field": "composerName",
-            "frame": AreaFrame(adjust_frame, "Plataforma:", preview_inputs[9]['input'], ("1 linha",), 9, 0)
+            "frame": AreaFrame(adjustFrames, "Nome do Compositor:", previewInputs[6]['input'], ("1 linha",), 6, 0)
+        },
+        {
+            "field": "composerAnimes",
+            "frame": AreaFrame(adjustFrames, "Animes do Compositor:", previewInputs[7]['input'], ("1 linha", "2 linhas", "3 linhas", "4 linhas"), 7, 0)
+        },
+        {
+            "field": "originalSource",
+            "frame": AreaFrame(adjustFrames, "Origem:", previewInputs[8]['input'], ("1 linha",), 8, 0)
         },        
         {
-            "field": "composerName",
-            "frame": AreaFrame(adjust_frame, "Data de Estréia:", preview_inputs[10]['input'], ("1 linha",), 10, 0)
+            "field": "platform",
+            "frame": AreaFrame(adjustFrames, "Plataforma:", previewInputs[9]['input'], ("1 linha",), 9, 0)
+        },        
+        {
+            "field": "premiere",
+            "frame": AreaFrame(adjustFrames, "Data de Estréia:", previewInputs[10]['input'], ("1 linha",), 10, 0)
         },        
 
     ]
@@ -922,180 +1223,93 @@ if __name__ == '__main__':
     scrollbar.grid(row=3, column=1, sticky=NSEW)
 
     # Configurando o comando da scrollbar para controlar o scroll do canva
-    scrollbar.config(command = adjust_canvas.yview)
+    scrollbar.config(command = adjustCanvas.yview)
 
     # Configurando scroll pra controlar a área vertical
-    #root.config(yscrollcommand=scrollbar.set)
-    adjust_canvas['yscrollcommand'] = scrollbar.set
+    adjustCanvas['yscrollcommand'] = scrollbar.set
 
     # Conectar a barra de rolagem ao evento/área que você quer rolar
-    adjust_canvas.bind('<Configure>', lambda event: adjust_canvas.configure(scrollregion = adjust_canvas.bbox("all")))
+    adjustCanvas.bind('<Configure>', lambda event: adjustCanvas.configure(scrollregion = adjustCanvas.bbox("all")))
 
-    # Adicionando o adjust_frame ao canva para habilitar o scroll
-    adjust_canvas.create_window((0,0), window=adjust_frame, anchor=NE)
+    # Adicionando o adjustFrames ao canva para habilitar o scroll
+    adjustCanvas.create_window((0,0), window=adjustFrames, anchor=NE)
 
-    adjust_canvas.grid(row=3, column=0, sticky=EW)
+    adjustCanvas.grid(row=3, column=0, sticky=EW)
 
-    #---------------------------------------------------------------------------
+    #-----------------------------------------------------------------------
     # Acionar Preview
-    #dicioCoords = [{"field": "title", "coordx": titles_frame.getCoordx(), "coordy": titles_frame.getCoordy(),}]
-    pathFontItalic = ''
-    pathFontPrincipal = ''
-    pathImageBase = ''
+    pathBaseImage = ''
+    pathMainFont = ''
+    pathItalicFont = ''
     pathDirectory = ''
+    pathDataText = ''
 
-    buttonDemo = ActionButton(root, "Demonstração", bgColor="lightyellow", fontColor="black", action="preview", row=4, column=0, sticky=EW, listInputs=previewFrames, paths=(pathFontPrincipal, pathFontItalic))
-    """ buttonDemo = Button(root, text="Demonstração", command=lambda: add_it())
-    buttonDemo.grid(row=4, column=0, sticky=EW) """
+    buttonFrame = Frame(root, width=dj[0], padx=5, pady=5, bd=3, relief='groove')
 
-    #---------------------------------------------------------------------------
-    # Ajustes salvos
-    for item in previewFrames:
-        if item['frame'].getTitle() == 'Título:':
-            item['frame'].setCoordx('960')
-            item['frame'].setCoordy('102')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('110')
-                    frame['inputFont2'].setText('75')
-                elif frame['subField'] == '2 linhas':
-                    frame['inputFont'].setText('75')
-                    frame['inputSpacing'].setText('0')
-        elif item['frame'].getTitle() == 'Gêneros:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('272')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-                elif frame['subField'] == '2 linhas':
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-        elif item['frame'].getTitle() == 'Nome do Estúdio:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('440')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Nome do Diretor:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('622')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Nome do Compositor:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('811')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Origem:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('998')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Plataforma:':
-            item['frame'].setCoordx('1064')
-            item['frame'].setCoordy('1013')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Data de Estréia:':
-            item['frame'].setCoordx('1726')
-            item['frame'].setCoordy('978')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter1'].setText('40')
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputFont2'].setText('35')
-        elif item['frame'].getTitle() == 'Animes do Estúdio:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('477')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '2 linhas':
-                    frame['inputCharacter2'].setText('55')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '3 linhas':
-                    frame['inputCharacter2'].setText('60')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '4 linhas':
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-        elif item['frame'].getTitle() == 'Animes do Diretor:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('680')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '2 linhas':
-                    frame['inputCharacter2'].setText('55')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '3 linhas':
-                    frame['inputCharacter2'].setText('60')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '4 linhas':
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-        elif item['frame'].getTitle() == 'Animes do Compositor:':
-            item['frame'].setCoordx('393')
-            item['frame'].setCoordy('848')
-            for frame in item['frame'].getSubFrames():
-                if frame['subField'] == '1 linha':
-                    frame['inputCharacter2'].setText('50')
-                    frame['inputFont'].setText('40')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '2 linhas':
-                    frame['inputCharacter2'].setText('55')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '3 linhas':
-                    frame['inputCharacter2'].setText('60')
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
-                elif frame['subField'] == '4 linhas':
-                    frame['inputFont'].setText('35')
-                    frame['inputSpacing'].setText('0')
+    confirmationButton = ActionButton(buttonFrame, 'SALVAR CONFIGURAÇÕES', 'lightblue', "blue", 'confirmar', 4, 0, sticky=EW, listInputs=previewFrames)
+
+    demoButton = ActionButton(buttonFrame, "DEMONSTRAÇÃO", bgColor="lightyellow", fontColor="black", action="preview", row=4, column=1, sticky=EW, listInputs=previewFrames, paths=(pathBaseImage, pathMainFont, pathItalicFont, '', ''))
+
+    runButton = ActionButton(buttonFrame, "EXECUTAR", '#7BFF78', '#0D650B', 'gerar', 4, 2, sticky=EW, listInputs=previewFrames, paths=(pathBaseImage, pathMainFont, pathItalicFont, pathDirectory, pathDataText))
+
+    buttonFrame.grid(row=4, column=0, sticky=EW)
+    #-----------------------------------------------------------------------
+
+    # RF010 - Busca por configurações salvas anteriormente
+    if os.path.isfile(os.path.join(locationPath, r'src\data\configs_test.txt')):
+        logging.info('Carregando Configurações Padrão')
+        with open(os.path.join(locationPath, r'src\data\configs_test.txt')) as fileObject:
+            itemConfigs = fileObject.readlines()
+            itemConfigs = [line.rstrip() for line in itemConfigs]
+            configs = []
+            temp = {}
+            for item in itemConfigs:
+                if item == '':
+                    configs.append(temp)
+                    temp = {}
+                else:
+                    item = item.split(' ')
+                    if len(item) > 2:
+                        item[1] = ' '.join(item[1:])
+                    temp[item[0][:-1]] = item[1]
+            if temp:
+                configs.append(temp)
+        
+        for item in previewFrames:
+            logging.info(f'Configurações do frame: *{item["frame"].getTitle()[:-1]}* carregadas')
+            for config in configs:
+                if item['frame'].getTitle() == config['campo']:
+                    item['frame'].setCoordx(config['coordx'])
+                    item['frame'].setCoordy(config['coordy'])
+                    for frame in item['frame'].getSubFrames():
+                        if frame['subField'] == '1 linha':
+                            for key, value in config.items():
+                                if '1' == key[0]:
+                                    frame[key[1:]].setText(value)
+                        elif frame['subField'] == '2 linhas':
+                            for key, value in config.items():
+                                if '2' == key[0]:
+                                    frame[key[1:]].setText(value)
+                        elif frame['subField'] == '3 linhas':
+                            for key, value in config.items():
+                                if '3' == key[0]:
+                                    frame[key[1:]].setText(value)
+                        elif frame['subField'] == '4 linhas':
+                            for key, value in config.items():
+                                if '4' == key[0]:
+                                    frame[key[1:]].setText(value)
 
 
-    adjust_canvas.grid_columnconfigure(0, weight=1)
+    adjustCanvas.grid_columnconfigure(0, weight=1)
     # Responsividade
-    input_frame.grid_columnconfigure([0,3], weight=0)
-    input_frame.grid_columnconfigure(1, weight=1)
-    input_frame.grid_columnconfigure(2, weight=3)
-    input_frame.grid_rowconfigure([0,1,2,3,4], pad=10)
-    preview_frame.grid_columnconfigure(0, weight=1)
-    #preview_texts.grid_columnconfigure([0,1,2,3,4,5], weight=1)
+    inputFrame.grid_columnconfigure([0,3], weight=0)
+    inputFrame.grid_columnconfigure(1, weight=1)
+    inputFrame.grid_columnconfigure(2, weight=3)
+    inputFrame.grid_rowconfigure([0,1,2,3,4], pad=10)
+    previewFrame.grid_columnconfigure(0, weight=1)
+    previewTexts.grid_columnconfigure([0,7], weight=1)
+    buttonFrame.grid_columnconfigure([0,1,2], weight=1)
+    #previewTexts.grid_columnconfigure([0,1,2,3,4,5], weight=1)
     root.grid_rowconfigure(0, weight=1)
     root.grid_columnconfigure(0, weight=1)
 

@@ -1,0 +1,5 @@
+src\images\base.png
+src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-Bold.ttf
+src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-SemiBoldItalic.ttf
+src\images
+src\data\text.txt

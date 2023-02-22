@@ -43,6 +43,7 @@ image.show()
 #image.save(r'C:/Users/Riku Aoki/Documents/Programas/CDT/Image/teste.png')
 25 - 175
 """
+"""
 import os
 import re
 from tkinter import *
@@ -130,3 +131,6 @@ class MyApp:
 root = Tk()
 app = MyApp(root)
 root.mainloop()
+"""
+
+print('sim')

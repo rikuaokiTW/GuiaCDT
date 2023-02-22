@@ -1,0 +1,110 @@
+C:\Users\Riku Aoki\Documents\Programas\GuiaCDT\src\images\test-cdt.png
+C:\Users\Riku Aoki\Documents\Programas\GuiaCDT\src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-Bold.ttf
+C:\Users\Riku Aoki\Documents\Programas\GuiaCDT\src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-SemiBoldItalic.ttf
+C:\Users\Riku Aoki\Documents\Programas\GuiaCDT\src\images
+C:\Users\Riku Aoki\Documents\Programas\GuiaCDT\src\data\text.txt
+
+
+campo: Título:
+coordx: 960
+coordy: 102
+1inputCharacter1: 38
+1inputCharacter2: 42
+1inputFont: 95
+1inputFont2: 75
+2inputFont: 75
+2inputSpacing: 0
+
+campo: Gêneros:
+coordx: 393
+coordy: 292
+1inputCharacter1: 30
+1inputCharacter2: 34
+1inputFont: 40
+1inputFont2: 35
+2inputFont: 35
+2inputSpacing: 2
+
+campo: Nome do Estúdio:
+coordx: 393
+coordy: 440
+1inputCharacter1: 34
+1inputFont: 40
+1inputFont2: 30
+
+campo: Nome do Diretor:
+coordx: 393
+coordy: 622
+1inputCharacter1: 40
+1inputFont: 40
+1inputFont2: 30
+
+campo: Nome do Compositor:
+coordx: 393
+coordy: 811
+1inputCharacter1: 40
+1inputFont: 40
+1inputFont2: 30
+
+campo: Origem:
+coordx: 393
+coordy: 998
+1inputCharacter1: 40
+1inputFont: 40
+1inputFont2: 40
+
+campo: Plataforma:
+coordx: 1064
+coordy: 1013
+1inputCharacter1: 40
+1inputFont: 40
+1inputFont2: 40
+
+campo: Data de Estréia:
+coordx: 1726
+coordy: 1001
+1inputCharacter1: 40
+1inputFont: 54
+1inputFont2: 54
+
+campo: Animes do Estúdio:
+coordx: 393
+coordy: 474
+1inputCharacter2: 38
+1inputFont: 35
+2inputCharacter2: 75
+2inputFont: 35
+2inputSpacing: 0
+3inputCharacter2: 105
+3inputFont: 34
+3inputSpacing: 0
+4inputFont: 30
+4inputSpacing: -1
+
+campo: Animes do Diretor:
+coordx: 393
+coordy: 656
+1inputCharacter2: 38
+1inputFont: 35
+2inputCharacter2: 75
+2inputFont: 35
+2inputSpacing: 0
+3inputCharacter2: 105
+3inputFont: 34
+3inputSpacing: 0
+4inputFont: 30
+4inputSpacing: -1
+
+campo: Animes do Compositor:
+coordx: 393
+coordy: 845
+1inputCharacter2: 38
+1inputFont: 35
+2inputCharacter2: 75
+2inputFont: 35
+2inputSpacing: 0
+3inputCharacter2: 105
+3inputFont: 34
+3inputSpacing: 0
+4inputFont: 30
+4inputSpacing: -1

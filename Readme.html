@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Automatizador</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #222;
+            color: rgba(240, 240, 240);
+            min-height: 100%;
+            font-family: 'Poppins', 'Roboto', 'sans-serif';
+        }
+        a {
+            color: rgba(240, 240, 240);
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgba(240, 240, 240, 0.7);
+        }
+        header::after {
+            content: '';
+            display: block;
+            height: 4px;
+            width: 100%;
+            background-color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        #structure {
+            display: grid;
+            grid-template-columns: auto auto 1fr;
+            gap: 16px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        aside, main {
+            padding: 12px 0px;
+        }
+        aside {
+            position:static;
+        }
+        aside > nav {
+            position:-webkit-sticky;
+            position:sticky;
+            top: 8px;
+        }
+        #bar {
+            background-color: white;
+            width: 2px;
+            min-height: 100%;
+        }
+        p, li {
+            line-height: calc(1rem * 1,3px)
+        }
+        section {
+            margin: 8px 0;
+        }
+        section > ul > li {
+            margin-left: 16px;
+        }
+        section > ul > li ~ li {
+            padding-top: 16px;
+        }
+        ol {
+            margin-left: 16px;
+            counter-reset:item;
+        }         
+        ol>li {
+            padding-left: 8px;
+            list-style-type:none;
+            counter-increment:item;
+        }
+        ol>li:before {
+            display:inline-block;
+            width:1.5em;
+            padding-right:0.5em;
+            font-weight:bold;
+            text-align:right;
+            content:counter(item) ".";
+        }
+        li > ol {
+            padding-left: 16px;
+        }
+        li > ol > li:before {
+            content:"2." counter(item) ".";
+        }
+        section > ol > li {
+            margin-left: 16px;
+        }
+        section > ol > li ~ li {
+            padding-top: 16px;
+        }
+        h2 {
+            margin-left: 8px;
+            padding-bottom: 10px;
+        }
+        h2 ~ h2 {
+            margin-top: 8px;
+        }
+        section > ul {
+            margin-left: 16px;
+        }
+        section li > ul {
+            margin-left: 36px;
+        }
+        li ~ li {
+            padding-top: 8px;
+        }
+        li > ul {
+            padding-top: 6px;
+            padding-left: 8px;
+        }
+        h1 {
+            font-size: 30px;
+            padding-bottom: 12px;
+        }
+        h1 ~ h1 {
+            padding-top: 8px;
+        }
+        p {
+            text-indent: 12px;
+            font-size: 18px;
+        }
+        #linkArea {
+            margin-left: 8px;
+            width: 850px;
+            height: 200px;
+        }
+        #linkArea > img {
+            height: 200px;
+            width: 850px;
+            padding: 2px;
+            border: 1px solid white;
+            object-fit: cover;
+            object-position: center;
+        }
+        #previewArea {
+            margin-left: 8px;
+            width: 950px;
+            height: 450px;
+        }
+        #previewArea > img {
+            width: 950px;
+            height: 450px;
+            padding: 2px;
+            border: 1px solid white;
+            object-fit: cover;
+            object-position: cover;
+        }
+        #adjustmentArea {
+            margin-left: 8px;
+            width: 950px;
+            height: 280px;
+        }
+        #adjustmentArea > img {
+            width: 950px;
+            height: 275px;
+            padding: 2px;
+            border: 1px solid white;
+            object-fit: contain;
+            object-position: contain;
+        }
+        footer {
+            height: 200px;
+        }
+        footer::before {
+            content: '';
+            display: block;
+            height: 4px;
+            width: 100%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="#" alt="">
+            </div>
+            <h1>Automatizador de Guia</h1>
+        </div>
+    </header>
+    <div id="structure">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#userRequirements">Requisitos de Usuário</a></li>
+                    <li><a href="#systemRequirements">Requisitos de Sistema</a></li>
+                    <li><a href="#workArea">Funcionamento</a>
+                        <ul>
+                            <li>Área de Paths</li>
+                            <li>Área de Preview</li>
+                            <li>Área de Ajustes</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div id="bar"></div>
+        <main>
+                <section id="userRequirements">
+                    <h1>Requisitos de Usuário</h1>
+                    <ul>
+                        <li>
+                            <strong>RU001</strong> - O programa fornecerá um meio para o usuário colocar todos os 'paths' necessários para a criação das imagens
+                        </li>
+                        <li>
+                            <strong>RU002</strong> - O programa fornecerá uma prévia do resultado final, onde o usuário poderá colocar textos e visualizá-los conforme ficarão na versão final
+                        </li>
+                        <li>
+                            <strong>RU003</strong> - O programa dará uma série de inputs onde o usuário poderá fazer 'ajustes finos' acerca do onde e como o texto deverá aparecer de acordo com sua área na imagem
+                        </li>
+                        <li>
+                            <strong>RU004</strong> - O programa permitirá ao usuário salvar informações configuradas por ele, como os 'paths' ou os 'ajustes finos'
+                        </li>
+                    </ul>
+                </section>
+                <section id="systemRequirements">
+                    <h1>Requisitos Funcionais de Sistema</h1>
+                    <h2>Referente ao RU001</h2>
+                    <ul>
+                        <li>
+                            <strong>RF001</strong> - Deve haver 1 campo para cada 'path' exigido, cada campo é composto por um aviso, um rótulo, um campo de input e um botão que permita buscar o path de cada item
+                        </li>
+                        <li>
+                            <strong>RF002</strong> - O item de aviso deve ser um alerta visual, que indicará quando o 'path' do campo input é ou não válido, caso haja mais de um possível erro, o item deve dar dicas de como o erro pode ser resolvido
+                        </li>
+                        <li>
+                            <strong>RF003</strong> - É necessário que o programa valide os campos de input e verifique se cada campo é válido pra seu respectivo item, caso seja válido, o programa deve atualizar o item de aviso, alertando o usuário que o valor é válido, o mesmo deve ocorrer para o caso de valor inválido
+                        </li>
+                        <li>
+                            <strong>RF004 (opcional)</strong> - Os campos de input poderão ser preenchidos de forma intuitiva, permitindo ao usuário navegar pelo explorador de arquivos do sistema e selecionar os arquivos e pastas diretamente, retornando o path do item selecionado
+                        </li>
+                    </ul>
+                    <h2>Referente ao RU002</h2>
+                    <ul>
+                        <li>
+                            <strong>RF005</strong> - A prévia deverá conter uma imagem-modelo isolada semelhante à imagem final, porém sem influência sobre a mesma, a prévia exibirá de forma precisa como os textos ficarão na imagem final
+                        </li>
+                        <li>
+                            <strong>RF006</strong> - Para cada campo presente na imagem, haverá um campo correspondente no programa que permitirá input de texto-modelo a ser exibido na prévia, esse campo deve ser acompanhado de um identificador e um contador que permita saber a quantidade de caracteres do campo de forma dinâmica
+                        </li>
+                    </ul>
+                    <h2>Referente ao RU003</h2>
+                    <ul>
+                        <li>
+                            <strong>RF007</strong> - Cada área de texto da imagem deve possuir uma área respectiva que permita fazer ajustes, como as coordenadas em que o texto deve aparecer na imagem e o tamanho de sua fonte, em caso de áreas com múltiplas linhas, também deve ser coletado o número máximo de caracteres para cada linha e o espaçamento entre as linhas
+                        </li>
+                        <li>
+                            <strong>RF008</strong> - Deve haver um preenchimento automático e/ou desabilitação de campos cujo valor possa ser deduzido
+                        </li>
+                    </ul>
+                    <h2>Referente ao RU004</h2>
+                    <ul>
+                        <li>
+                            <strong>RF009</strong> - O programa deverá armazenar configurações e outros dados em arquivos de texto simples, essas informações devem ser legíveis no arquivo
+                        </li>
+                        <li>
+                            <strong>RF010</strong> - Ao executar, o programa buscará por configurações salvas previamente e, se houver, preencherá os campos com seus respectivos valores salvos, caso não encontre, os campos ficarão em branco
+                        </li>
+                    </ul>
+                </section>
+                <section id="workArea">
+                    <h1>Funcionamento do Programa</h1>
+                    <h2>Área de Paths</h2>
+                    <div class="imagem" id="linkArea">
+                        <img src="./references/doc/linkArea.PNG">
+                    </div>
+                    <ol>
+                        <li>Área onde devem ser colocados os 'paths' para cada arquivo correspondente com o rótulo, esses campos podem ser preenchidos manualmente;</li>
+                        <li>Área de alertas, cada alerta pode ter 2 cores diferentes, verde ou vermelho, verde representará que o arquivo ou pasta foi encontrado e funcionará, vermelho representará que houve um erro ao tentar encontrar o arquivo, no total existem 4 mensagens diferentes para cada item:
+                            <ol>
+                                <li>
+                                    "Não identificado": Aparece quando o campo está vazio;
+                                </li>
+                                <li>
+                                    "Esperava algo como": Aparece quando foi identificado texto no campo de preenchimento, porém ele não corresponde à um caminho válido;
+                                </li>
+                                <li>
+                                    "Deve ser": Aparece quando um caminho válido é inserido, porém o arquivo ao qual ele leva não é o que se espera para esse campo;
+                                </li>
+                                <li>
+                                    "Encontrado!": A única a aparecer com o aviso na cor verde, ela informa que o caminho é válido e o arquivo tem o tipo esperado.
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Área de botões de busca, ao clicar, cada um deles abrirá o explorador de arquivos e permitirá a busca do arquivo ou pasta desejado, ao terminar a seleção o caminho para o arquivo ou pasta será automaticamente colocado no campo de input, caso a busca pelo arquivo seja cancelada após clicar no botão, o campo de input ficará em branco;</li>
+                        <li>Área de botões, o botão de "Salvar Paths" irá coletar cada caminho de arquivo colocado e salvará tudo num arquivo de texto chamado "paths", localizado em src/data/. O botão "Apagar Tudo", deixará todos os campos de input em branco.</li>
+                    </ol>
+                    <h2>Área de Preview</h2>
+                    <div id="previewArea">
+                        <img src="./references/doc/previewArea.PNG">
+                    </div>
+                    <ol>
+                        <li>Área de pré-visualização, a imagem inicial, que é aberta com o programa, é a imagem com nome "preview" localizada em src/images, sempre que forem executadas as configurações de preview, a imagem será atualizada com as novas informações e também com a imagem que foi colocada como imagem base na área dos paths;</li>
+                        <li>Área de textos demonstrativos, aqui podem ser colocados textos de qualquer tipo para serem visualizados na imagem, os textos ocuparão a sua área correspondente na imagem, a área do texto é identificada pelo rótulo localizado antes do campo de input, cada campo de input conta com um contador, identificado por "T: 0", o "T" representa "tamanho de texto", esse contador é atualizado a cada caractere colocado no espaço correspondente.</li>
+                    </ol>
+                    <h2>Área de Ajustes e Botões</h2>
+                    <div id="adjustmentArea">
+                        <img src="./references/doc/adjustFinalArea.PNG">
+                    </div>
+                    <ol>
+                        <li>A área de ajustes finos, possui um total de 11 sub-áreas, cada uma afeta o seu respectivo campo na imagem, algumas sub-áreas possuem mais campos a serem preenchidos que outras, devido as necessidades que cada área da imagem exige, no total são 7 campos diferentes que podem aparecer, sendo eles:
+                            <ul>
+                                <li><strong>Coordx:</strong> Determina, horizontalmente, o pixel em que o texto será colocado na imagem, sendo o ponto inicial (0) o lado esquerdo da imagem;</li>
+                                <li><strong>Coordy:</strong> Determina, verticalmente, o pixel em que o texto será colocado na imagem, sendo o ponto inicial (0) o topo da imagem;</li>
+                                <li><strong>Min:</strong> Determina o mínimo de caracteres pra ocupar o espaço definido;</li>
+                                <li><strong>Max:</strong> Determina o máximo de caracteres que pode ocupar o espaço definido;</li>
+                                <li><strong>Font-Size:</strong> Determina o tamanho da fonte;</li>
+                                <li><strong>Font-Size1 e 2:</strong> Determina o tamanho do texto quando ele pode ter no máximo 2 linhas, o font-size1 determina o tamanho do texto enquanto ele estiver dentro do intervalo definido, font-size2 determina o tamanho do texto quando ele excede o intervalo;</li>
+                                <li><strong>Spacing:</strong> Determina o espaçamento de linhas em textos com mais de 1 linha.</li>
+                            </ul>
+                        </li>
+                        <li>Área de botões, é ocupada pelos botões principais do programa, sendo eles:
+                            <ul>
+                                <li>O botão "Salvar Configurações" irá pegar todos os valores definidos na área de ajustes e salvá-los num arquivo de texto chamado "configs" localizado em src/data;</li>
+                                <li>O botão "Demonstração" irá atualizar a imagem de pré-visualização usando os novos dados de texto-demonstrativo e de ajustes que foram colocados;</li>
+                                <li>O botão "Executar", irá usar as informações de ajustes e aplicará as configurações desejadas na imagem base escolhida, a quantidade de imagens que será gerada, dependerá da quantidade de informação disponível no arquivo de texto selecionado, as imagens geradas irão para a pasta de destino pré-selecionada.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <h2>Especificações</h2>
+                </section>
+        </main>
+    </div>
+    <footer></footer>
+</body>
+</html>
