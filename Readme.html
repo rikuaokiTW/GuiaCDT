@@ -27,6 +27,13 @@
         a:hover {
             color: rgba(240, 240, 240, 0.7);
         }
+        header, footer {
+            height: 150px;
+            background-image: url(./references/Doc/background.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
         header::after {
             content: '';
             display: block;
@@ -38,7 +45,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px 0;
+            height: 100%;
+        }
+        #logo {
+            width: 160px;
+            height: 60px;
+        }
+        #logo > img {
+            width: 160px;
+            height: 60px;
+            object-fit: contain;
+            object-position: center;
         }
         #structure {
             display: grid;
@@ -76,6 +93,7 @@
             padding-top: 16px;
         }
         ol {
+            margin-top: 16px;
             margin-left: 16px;
             counter-reset:item;
         }         
@@ -104,7 +122,7 @@
         section > ol > li ~ li {
             padding-top: 16px;
         }
-        h2 {
+        h2, h3 {
             margin-left: 8px;
             padding-bottom: 10px;
         }
@@ -174,8 +192,23 @@
             object-fit: contain;
             object-position: contain;
         }
+        #texto {
+            background-color: white;
+            margin-left: 8px;
+            margin-bottom: 16px;
+            width: 950px;
+            height: 380px;
+        }
+        #texto > img {
+            width: 950px;
+            height: 380px;
+            padding: 2px;
+            border: 1px solid white;
+            object-fit: contain;
+            object-position: contain;
+        }
         footer {
-            height: 200px;
+            height: 100px;
         }
         footer::before {
             content: '';
@@ -190,7 +223,7 @@
     <header>
         <div class="container">
             <div id="logo">
-                <img src="#" alt="">
+                <img src="./references/Doc/logoCDT.png">
             </div>
             <h1>Automatizador de Guia</h1>
         </div>
@@ -335,6 +368,14 @@
                         </li>
                     </ol>
                     <h2>Especificações</h2>
+                    <h3>Texto</h3>
+                    <div id="texto">
+                        <img src="./references/Doc/textAnchors.svg">
+                    </div>
+                    <ul>
+                        <li><strong>Títulos e Datas de Estréia</strong> possuem as âncoras (x, y) como meio-meio, isso quer dizer que as coordenadas irão determinar onde será o meio do texto na imagem.</li>
+                        <li><strong>Todos os Demais Textos:</strong> possuem âncoras (x, y) meio-ascendente, isso quer dizer que a coordenada x irá determinar onde ficará centralizado o texto e a coordenada y determinará onde será o topo do texto.</li>
+                    </ul>
                 </section>
         </main>
     </div>
