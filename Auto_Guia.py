@@ -507,13 +507,13 @@ class ActionButton(Button):
                 if frames['subField'] == '1 linha':
                     maxFont = int(frames['inputCharacter1'].getValue())
                     fontHeight1 = int(frames['inputFont'].getValue())
-                    if 'Título' in field or 'Gêneros' in field or 'Animes' in field:
+                    try:
                         maxLine1 = int(frames['inputCharacter2'].getValue())
-                    else:
+                    except:
                         maxLine1 = 500
-                    if 'Animes' not in field:
+                    try:
                         fontHeight2 = int(frames['inputFont2'].getValue())
-                    else:
+                    except:
                         fontHeight2 = 0
                         fontHeight3 = 500
                 elif frames['subField'] == '2 linhas':
@@ -1022,7 +1022,7 @@ if __name__ == '__main__':
     # Paths de localização
     developmentPath = os.getcwd()
     productionPath = os.path.split(os.path.split(os.getcwd())[0])[0]
-    locationPath = productionPath
+    locationPath = developmentPath
     # Asyncio
     async_loop = asyncio.get_event_loop()
     #queue = asyncio.Queue()

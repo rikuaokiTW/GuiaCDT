@@ -54,3 +54,21 @@ console.error: "Unable to find target with innerWindowId:17179869189"
 console.error: "Unable to find target with innerWindowId:17179869189"
 console.error: "Unable to find target with innerWindowId:19327352833"
 console.error: "Unable to find target with innerWindowId:19327352833"
+1677252099835	geckodriver	INFO	Listening on 127.0.0.1:9140
+1677252101227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "9141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RIKUAO~1\\AppData\\Local\\Temp\\rust_mozprofiletMmmjY"
+1677252106391	Marionette	INFO	Marionette enabled
+1677252106405	Marionette	INFO	Listening on port 9152
+Read port: 9152
+WebDriver BiDi listening on ws://127.0.0.1:9141
+Read port: 9152
+1677252109489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\RIKUAO~1\\AppData\\Local\\Temp\\rust_mozprofiletMmmjY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9141/devtools/browser/6fec49c3-5f88-4dc7-a574-2f1cde33f3b2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ENhUjQ5Efr1LKcBlRSMtCxEMsPeXm4hb-JW7itjXrRA.js line 2 > eval line 6701 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2099: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/shared/widgets/tooltip/HTMLTooltip.js, line 985: TypeError: this.doc is null
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1677252341508	Marionette	INFO	Stopped listening on port 9152
+[Parent 7292, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
