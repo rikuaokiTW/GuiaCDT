@@ -13,4 +13,7 @@ information = driver.find_elements(By.CSS_SELECTOR, ".spaceit_pad")
 information = [info.text for info in information]
 
 animes = [item.text for item in animes]
+.keyDown(Keys.ENTER)
+.forward()
+.back()
 """
