@@ -1,4 +1,4 @@
-campo: Título:
+campo: Título Único:
 coordx: 960
 coordy: 102
 1inputCharacter1: 36
@@ -8,9 +8,20 @@ coordy: 102
 2inputFont: 64
 2inputSpacing: 0
 
+campo: Título Duplo:
+coordx: 42
+coordy: 65
+Ecoordx: 42
+Ecoordy: 134
+1inputCharacter1: 36
+1inputCharacter2: 64
+1inputFont: 60
+1inputFont2: 55
+1inputFont3: 34
+
 campo: Gêneros:
-coordx: 393
-coordy: 292
+coordx: 42
+coordy: 279
 1inputCharacter1: 30
 1inputCharacter2: 34
 1inputFont: 40
@@ -19,85 +30,85 @@ coordy: 292
 2inputSpacing: 2
 
 campo: Nome do Estúdio:
-coordx: 393
-coordy: 434
+coordx: 42
+coordy: 419
 1inputCharacter1: 34
 1inputFont: 40
 1inputFont2: 28
 
 campo: Animes do Estúdio:
-coordx: 393
-coordy: 468
-1inputCharacter2: 30
+coordx: 42
+coordy: 456
+1inputCharacter2: 38
 1inputFont: 33
-2inputCharacter2: 60
+2inputCharacter2: 68
 2inputFont: 33
 2inputSpacing: 0
-3inputCharacter2: 105
+3inputCharacter2: 108
 3inputFont: 32
 3inputSpacing: 0
 4inputFont: 30
 4inputSpacing: -1
 
 campo: Nome do Diretor:
-coordx: 393
-coordy: 622
+coordx: 42
+coordy: 616
 1inputCharacter1: 34
 1inputFont: 40
 1inputFont2: 28
 
 campo: Animes do Diretor:
-coordx: 393
-coordy: 656
-1inputCharacter2: 30
+coordx: 42
+coordy: 652
+1inputCharacter2: 38
 1inputFont: 33
-2inputCharacter2: 60
+2inputCharacter2: 68
 2inputFont: 33
 2inputSpacing: 0
-3inputCharacter2: 105
+3inputCharacter2: 108
 3inputFont: 32
 3inputSpacing: 0
 4inputFont: 30
 4inputSpacing: -2
 
 campo: Nome do Compositor:
-coordx: 393
-coordy: 811
+coordx: 42
+coordy: 810
 1inputCharacter1: 34
 1inputFont: 40
 1inputFont2: 28
 
 campo: Animes do Compositor:
-coordx: 393
-coordy: 845
-1inputCharacter2: 30
+coordx: 42
+coordy: 846
+1inputCharacter2: 38
 1inputFont: 33
-2inputCharacter2: 60
+2inputCharacter2: 68
 2inputFont: 33
 2inputSpacing: 0
-3inputCharacter2: 105
+3inputCharacter2: 108
 3inputFont: 32
 3inputSpacing: 0
 4inputFont: 30
 4inputSpacing: -1
 
 campo: Origem:
-coordx: 393
-coordy: 998
+coordx: 42
+coordy: 1003
 1inputCharacter1: 40
 1inputFont: 40
 1inputFont2: 40
 
 campo: Plataforma:
-coordx: 1064
-coordy: 1013
-1inputCharacter1: 40
+coordx: 803
+coordy: 1010
+1inputCharacter1: 22
 1inputFont: 40
-1inputFont2: 40
+1inputFont2: 28
 
 campo: Data de Estréia:
-coordx: 1730
-coordy: 1004
+coordx: 1760
+coordy: 1006
 1inputCharacter1: 40
 1inputFont: 65
 1inputFont2: 65
