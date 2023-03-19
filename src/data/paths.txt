@@ -1,5 +1,5 @@
 src\images\Base2.png
 src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-Bold.ttf
-src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-SemiBoldItalic.ttf
+src\fonts\cheyenne-sans-cufonfonts\hinted-CheyenneSans-BoldItalic.ttf
 produced
 src\data\TempJaneiro2023.txt

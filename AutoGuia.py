@@ -1255,7 +1255,7 @@ if __name__ == '__main__':
     # Paths de localização
     developmentPath = os.getcwd()
     productionPath = os.path.split(os.path.split(os.getcwd())[0])[0]
-    locationPath = developmentPath
+    locationPath = productionPath
     # Asyncio
     async_loop = asyncio.get_event_loop()
     #queue = asyncio.Queue()
@@ -1467,7 +1467,7 @@ if __name__ == '__main__':
     specificationFrame.grid(row=3, column=0, sticky=EW)
     #-----------------------------------------------------------------------
     # Layout de Ajuste finos
-    adjustCanvas = Canvas(root, width=dj[0])
+    adjustCanvas = Canvas(root, width=dj[0], height=225)
     adjustFrames = Frame(adjustCanvas)
 
 
