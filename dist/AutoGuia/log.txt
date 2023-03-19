@@ -1,2675 +1,448 @@
-19/03/2023 05:31:55 AM - INFO - =================================
-19/03/2023 05:31:55 AM - INFO - Início do Programa
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de VisualWarning - linha: 0, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de SearchButton - linha: 0, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de VisualWarning - linha: 1, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de SearchButton - linha: 1, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de VisualWarning - linha: 2, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de SearchButton - linha: 2, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de VisualWarning - linha: 3, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de SearchButton - linha: 3, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de VisualWarning - linha: 4, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de SearchButton - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 0, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 3, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 9***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 11***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 13***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 1, coluna 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 0, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 1, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 7, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 8, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 8, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 9, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 10, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 11, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 8, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 8, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 9, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 10, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 11, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 2, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 3, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 2, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 3, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 4, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 5, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 6, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 7, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 8, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 9, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 10, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de AreaFrame - linha: 11, coluna: 0 ***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
-19/03/2023 05:31:55 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 0***
-19/03/2023 05:31:55 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 1***
-19/03/2023 05:31:55 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 2***
-19/03/2023 05:31:55 AM - INFO - Carregando Configurações Padrão
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Título Único* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Título Duplo* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Gêneros* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Nome do Estúdio* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Animes do Estúdio* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Nome do Diretor* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Animes do Diretor* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Nome do Compositor* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Animes do Compositor* carregadas
-19/03/2023 05:31:55 AM - INFO - Configurações do frame: *Origem* carregadas
-19/03/2023 05:31:56 AM - INFO - Configurações do frame: *Plataforma* carregadas
-19/03/2023 05:31:56 AM - INFO - Configurações do frame: *Data de Estréia* carregadas
-19/03/2023 05:32:41 AM - INFO - *** Início de execução de preview
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo title
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:32:41 AM - INFO - Texto: AAAAAAAAAAAAAA
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 14
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:32:41 AM - INFO - Texto Final: AAAAAAAAAAAAAA
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo genders
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Linha 1: 38
-19/03/2023 05:32:41 AM - INFO - Linha 2: 68
-19/03/2023 05:32:41 AM - INFO - Linha 3: 108
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Linha 1: 38
-19/03/2023 05:32:41 AM - INFO - Linha 2: 68
-19/03/2023 05:32:41 AM - INFO - Linha 3: 108
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Linha 1: 38
-19/03/2023 05:32:41 AM - INFO - Linha 2: 68
-19/03/2023 05:32:41 AM - INFO - Linha 3: 108
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo platform
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:32:41 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:32:41 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:32:41 AM - INFO - Texto: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:32:41 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:32:41 AM - INFO - Limites:
-19/03/2023 05:32:41 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:32:41 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:32:41 AM - INFO - Texto Final: 
-19/03/2023 05:32:41 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:32:41 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - *** Início de execução de preview
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo title
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:33:07 AM - INFO - Texto: A A A A A A A A A A A A A A A A A A A A A A A A A A A
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 53
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:33:07 AM - INFO - Texto Final: A A A A A A A A A A A A A A A A A A A A A
-A A A A A A
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo genders
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Linha 1: 38
-19/03/2023 05:33:07 AM - INFO - Linha 2: 68
-19/03/2023 05:33:07 AM - INFO - Linha 3: 108
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Linha 1: 38
-19/03/2023 05:33:07 AM - INFO - Linha 2: 68
-19/03/2023 05:33:07 AM - INFO - Linha 3: 108
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Linha 1: 38
-19/03/2023 05:33:07 AM - INFO - Linha 2: 68
-19/03/2023 05:33:07 AM - INFO - Linha 3: 108
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo platform
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:07 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:33:07 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:33:07 AM - INFO - Texto: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:07 AM - INFO - Limites:
-19/03/2023 05:33:07 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:33:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:07 AM - INFO - Texto Final: 
-19/03/2023 05:33:07 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:33:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - *** Início de execução de preview
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo doubleTitle
-19/03/2023 05:33:37 AM - INFO - Coordenadas Título Original (x, y): (42, 65)
-19/03/2023 05:33:37 AM - INFO - Coordenadas Título em Inglês (x, y): (42, 134)
-19/03/2023 05:33:37 AM - INFO - Texto do Título Original: AAAAAAAA
-19/03/2023 05:33:37 AM - INFO - Texto do Título em Inglês: AAAAAAAA
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto de Título Original: 8
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto de Título em Inglês: 8
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo genders
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Linha 1: 38
-19/03/2023 05:33:37 AM - INFO - Linha 2: 68
-19/03/2023 05:33:37 AM - INFO - Linha 3: 108
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Linha 1: 38
-19/03/2023 05:33:37 AM - INFO - Linha 2: 68
-19/03/2023 05:33:37 AM - INFO - Linha 3: 108
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Linha 1: 38
-19/03/2023 05:33:37 AM - INFO - Linha 2: 68
-19/03/2023 05:33:37 AM - INFO - Linha 3: 108
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo platform
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:33:37 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:33:37 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:33:37 AM - INFO - Texto: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:33:37 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:33:37 AM - INFO - Limites:
-19/03/2023 05:33:37 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:33:37 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:33:37 AM - INFO - Texto Final: 
-19/03/2023 05:33:37 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:33:37 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:16 AM - INFO - *** Início de execução de preview
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo doubleTitle
-19/03/2023 05:34:17 AM - INFO - Coordenadas Título Original (x, y): (42, 500)
-19/03/2023 05:34:17 AM - INFO - Coordenadas Título em Inglês (x, y): (42, 134)
-19/03/2023 05:34:17 AM - INFO - Texto do Título Original: AAAAAAAA
-19/03/2023 05:34:17 AM - INFO - Texto do Título em Inglês: AAAAAAAA
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto de Título Original: 8
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto de Título em Inglês: 8
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo genders
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Linha 1: 38
-19/03/2023 05:34:17 AM - INFO - Linha 2: 68
-19/03/2023 05:34:17 AM - INFO - Linha 3: 108
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Linha 1: 38
-19/03/2023 05:34:17 AM - INFO - Linha 2: 68
-19/03/2023 05:34:17 AM - INFO - Linha 3: 108
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Linha 1: 38
-19/03/2023 05:34:17 AM - INFO - Linha 2: 68
-19/03/2023 05:34:17 AM - INFO - Linha 3: 108
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo platform
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:17 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:34:17 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:34:17 AM - INFO - Texto: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:17 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:17 AM - INFO - Limites:
-19/03/2023 05:34:17 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:34:17 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:17 AM - INFO - Texto Final: 
-19/03/2023 05:34:17 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:34:17 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - *** Início de execução de preview
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo doubleTitle
-19/03/2023 05:34:32 AM - INFO - Coordenadas Título Original (x, y): (42, 65)
-19/03/2023 05:34:32 AM - INFO - Coordenadas Título em Inglês (x, y): (42, 134)
-19/03/2023 05:34:32 AM - INFO - Texto do Título Original: AAAAAAAA
-19/03/2023 05:34:32 AM - INFO - Texto do Título em Inglês: AAAAAAAA
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto de Título Original: 8
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto de Título em Inglês: 8
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo genders
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Linha 1: 38
-19/03/2023 05:34:32 AM - INFO - Linha 2: 68
-19/03/2023 05:34:32 AM - INFO - Linha 3: 108
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Linha 1: 38
-19/03/2023 05:34:32 AM - INFO - Linha 2: 68
-19/03/2023 05:34:32 AM - INFO - Linha 3: 108
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Linha 1: 38
-19/03/2023 05:34:32 AM - INFO - Linha 2: 68
-19/03/2023 05:34:32 AM - INFO - Linha 3: 108
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo platform
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:34:32 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:34:32 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:34:32 AM - INFO - Texto: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:34:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:34:32 AM - INFO - Limites:
-19/03/2023 05:34:32 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:34:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:34:32 AM - INFO - Texto Final: 
-19/03/2023 05:34:32 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:34:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - *** Início de execução de preview
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo doubleTitle
-19/03/2023 05:35:50 AM - INFO - Coordenadas Título Original (x, y): (42, 65)
-19/03/2023 05:35:50 AM - INFO - Coordenadas Título em Inglês (x, y): (42, 134)
-19/03/2023 05:35:50 AM - INFO - Texto do Título Original: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II
-19/03/2023 05:35:50 AM - INFO - Texto do Título em Inglês: The Misfit of Demon King Academy II
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto de Título Original: 108
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto de Título em Inglês: 35
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo genders
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Linha 1: 38
-19/03/2023 05:35:50 AM - INFO - Linha 2: 68
-19/03/2023 05:35:50 AM - INFO - Linha 3: 108
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Linha 1: 38
-19/03/2023 05:35:50 AM - INFO - Linha 2: 68
-19/03/2023 05:35:50 AM - INFO - Linha 3: 108
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Linha 1: 38
-19/03/2023 05:35:50 AM - INFO - Linha 2: 68
-19/03/2023 05:35:50 AM - INFO - Linha 3: 108
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo platform
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:35:50 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:35:50 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:35:50 AM - INFO - Texto: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:35:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:35:50 AM - INFO - Limites:
-19/03/2023 05:35:50 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:35:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:35:50 AM - INFO - Texto Final: 
-19/03/2023 05:35:50 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:35:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:37:31 AM - INFO - Gerando Imagens Finais
-19/03/2023 05:37:31 AM - INFO - Gerada imagem "Ars no Kyojuu.png"
-19/03/2023 05:37:32 AM - INFO - Gerada imagem "Ayakashi Triangle.png"
-19/03/2023 05:37:32 AM - INFO - Gerada imagem "Benriya Saitou-san, Isekai ni Iku.png"
-19/03/2023 05:37:33 AM - INFO - Gerada imagem "Buddy Daddies.png"
-19/03/2023 05:37:33 AM - INFO - Gerada imagem "Eiyuuou, Bu wo Kiwameru Tame Tenseisu Soshite, Sekai Saikyou no Minarai Kishi.png"
-19/03/2023 05:37:33 AM - INFO - Gerada imagem "HIGH CARD.png"
-19/03/2023 05:37:34 AM - INFO - Gerada imagem "Hikari no Ou.png"
-19/03/2023 05:37:34 AM - INFO - Gerada imagem "Hyouken no Majutsushi ga Sekai wo Suberu.png"
-19/03/2023 05:37:34 AM - INFO - Gerada imagem "Isekai Nonbiri Nouka.png"
-19/03/2023 05:37:35 AM - INFO - Gerada imagem "Ito Junji Maniac.png"
-19/03/2023 05:37:35 AM - INFO - Gerada imagem "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life.png"
-19/03/2023 05:37:35 AM - INFO - Gerada imagem "Koori Zokusei Danshi to Cool na Douryou Joshi.png"
-19/03/2023 05:37:36 AM - INFO - Gerada imagem "Kubo-san wa Mob wo Yurusanai.png"
-19/03/2023 05:37:36 AM - INFO - Gerada imagem "Make My Day.png"
-19/03/2023 05:37:37 AM - INFO - Gerada imagem "Mononogatari.png"
-19/03/2023 05:37:37 AM - INFO - Gerada imagem "Mou Ippon!.png"
-19/03/2023 05:37:37 AM - INFO - Gerada imagem "NieR Automata Ver1.1a.png"
-19/03/2023 05:37:38 AM - INFO - Gerada imagem "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu.png"
-19/03/2023 05:37:38 AM - INFO - Gerada imagem "Nokemono-tachi no Yoru.png"
-19/03/2023 05:37:38 AM - INFO - Gerada imagem "Oniichan wa Oshimai!.png"
-19/03/2023 05:37:39 AM - INFO - Gerada imagem "Ooyukiumi no Kaina.png"
-19/03/2023 05:37:39 AM - INFO - Gerada imagem "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.png"
-19/03/2023 05:37:39 AM - INFO - Gerada imagem "Revenger.png"
-19/03/2023 05:37:40 AM - INFO - Gerada imagem "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu.png"
-19/03/2023 05:37:40 AM - INFO - Gerada imagem "Saikyou Onmyouji no Isekai Tenseiki.png"
-19/03/2023 05:37:41 AM - INFO - Gerada imagem "Spy Kyoushitsu.png"
-19/03/2023 05:37:41 AM - INFO - Gerada imagem "Sugar Apple Fairy Tale.png"
-19/03/2023 05:37:42 AM - INFO - Gerada imagem "Technoroid OVERMIND.png"
-19/03/2023 05:37:42 AM - INFO - Gerada imagem "Tensei Oujo to Tensai Reijou no Mahou Kakumei.png"
-19/03/2023 05:37:42 AM - INFO - Gerada imagem "The Legend of Heroes Sen no Kiseki - Northern War.png"
-19/03/2023 05:37:43 AM - INFO - Gerada imagem "Tomo-chan wa Onnanoko!.png"
-19/03/2023 05:37:43 AM - INFO - Gerada imagem "Tondemo Skill de Isekai Hourou Meshi.png"
-19/03/2023 05:37:43 AM - INFO - Gerada imagem "Trigun Stampede.png"
-19/03/2023 05:37:44 AM - INFO - Gerada imagem "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san.png"
-19/03/2023 05:37:44 AM - INFO - Gerada imagem "UniteUp!.png"
-19/03/2023 05:37:45 AM - INFO - Gerada imagem "Aggretsuko 5th Season.png"
-19/03/2023 05:37:45 AM - INFO - Gerada imagem "Bungou Stray Dogs 4th Season.png"
-19/03/2023 05:37:45 AM - INFO - Gerada imagem "Cardfight!! Vanguard Will+Dress Season 2.png"
-19/03/2023 05:37:46 AM - INFO - Gerada imagem "D4DJ All Mix.png"
-19/03/2023 05:37:46 AM - INFO - Gerada imagem "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Fuka Shou - Yakusai-hen.png"
-19/03/2023 05:37:46 AM - INFO - Gerada imagem "Gokushufudou 2nd Season.png"
-19/03/2023 05:37:47 AM - INFO - Gerada imagem "Ijiranaide, Nagatoro-san 2nd Attack.png"
-19/03/2023 05:37:47 AM - INFO - Gerada imagem "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2.png"
-19/03/2023 05:37:48 AM - INFO - Gerada imagem "Kami-tachi ni Hirowareta Otoko 2.png"
-19/03/2023 05:37:48 AM - INFO - Gerada imagem "Kyokou Suiri 2nd Season.png"
-19/03/2023 05:37:48 AM - INFO - Gerada imagem "Kyuuketsuki Sugu Shinu 2.png"
-19/03/2023 05:37:49 AM - INFO - Gerada imagem "Majutsushi Orphen Hagure Tabi Urbanrama-hen.png"
-19/03/2023 05:37:49 AM - INFO - Gerada imagem "Maou Gakuin no Futekigousha Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II.png"
-19/03/2023 05:37:50 AM - INFO - Gerada imagem "Pokemon Mezase Pokemon Master.png"
-19/03/2023 05:37:50 AM - INFO - Gerada imagem "Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei.png"
-19/03/2023 05:37:50 AM - INFO - Gerada imagem "Shuumatsu no Walküre II.png"
-19/03/2023 05:37:51 AM - INFO - Gerada imagem "Tokyo Revengers Seiya Kessen-hen.png"
-19/03/2023 05:37:51 AM - INFO - Gerada imagem "Tsurune -Tsunagari no Issha-.png"
-19/03/2023 05:37:51 AM - INFO - Gerada imagem "Vinland Saga Season 2.png"
-19/03/2023 05:39:56 AM - INFO - Gerando Imagens Finais
-19/03/2023 05:39:56 AM - INFO - Gerada imagem "Ars no Kyojuu.png"
-19/03/2023 05:39:57 AM - INFO - Gerada imagem "Ayakashi Triangle.png"
-19/03/2023 05:39:57 AM - INFO - Gerada imagem "Benriya Saitou-san, Isekai ni Iku.png"
-19/03/2023 05:39:58 AM - INFO - Gerada imagem "Buddy Daddies.png"
-19/03/2023 05:39:58 AM - INFO - Gerada imagem "Eiyuuou, Bu wo Kiwameru Tame Tenseisu Soshite, Sekai Saikyou no Minarai Kishi.png"
-19/03/2023 05:39:58 AM - INFO - Gerada imagem "HIGH CARD.png"
-19/03/2023 05:39:59 AM - INFO - Gerada imagem "Hikari no Ou.png"
-19/03/2023 05:39:59 AM - INFO - Gerada imagem "Hyouken no Majutsushi ga Sekai wo Suberu.png"
-19/03/2023 05:39:59 AM - INFO - Gerada imagem "Isekai Nonbiri Nouka.png"
-19/03/2023 05:40:00 AM - INFO - Gerada imagem "Ito Junji Maniac.png"
-19/03/2023 05:40:00 AM - INFO - Gerada imagem "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life.png"
-19/03/2023 05:40:01 AM - INFO - Gerada imagem "Koori Zokusei Danshi to Cool na Douryou Joshi.png"
-19/03/2023 05:40:01 AM - INFO - Gerada imagem "Kubo-san wa Mob wo Yurusanai.png"
-19/03/2023 05:40:01 AM - INFO - Gerada imagem "Make My Day.png"
-19/03/2023 05:40:02 AM - INFO - Gerada imagem "Mononogatari.png"
-19/03/2023 05:40:02 AM - INFO - Gerada imagem "Mou Ippon!.png"
-19/03/2023 05:40:02 AM - INFO - Gerada imagem "NieR Automata Ver1.1a.png"
-19/03/2023 05:40:03 AM - INFO - Gerada imagem "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu.png"
-19/03/2023 05:40:03 AM - INFO - Gerada imagem "Nokemono-tachi no Yoru.png"
-19/03/2023 05:40:04 AM - INFO - Gerada imagem "Oniichan wa Oshimai!.png"
-19/03/2023 05:40:04 AM - INFO - Gerada imagem "Ooyukiumi no Kaina.png"
-19/03/2023 05:40:04 AM - INFO - Gerada imagem "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.png"
-19/03/2023 05:40:05 AM - INFO - Gerada imagem "Revenger.png"
-19/03/2023 05:40:05 AM - INFO - Gerada imagem "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu.png"
-19/03/2023 05:40:06 AM - INFO - Gerada imagem "Saikyou Onmyouji no Isekai Tenseiki.png"
-19/03/2023 05:40:06 AM - INFO - Gerada imagem "Spy Kyoushitsu.png"
-19/03/2023 05:40:06 AM - INFO - Gerada imagem "Sugar Apple Fairy Tale.png"
-19/03/2023 05:40:07 AM - INFO - Gerada imagem "Technoroid OVERMIND.png"
-19/03/2023 05:40:07 AM - INFO - Gerada imagem "Tensei Oujo to Tensai Reijou no Mahou Kakumei.png"
-19/03/2023 05:40:07 AM - INFO - Gerada imagem "The Legend of Heroes Sen no Kiseki - Northern War.png"
-19/03/2023 05:40:08 AM - INFO - Gerada imagem "Tomo-chan wa Onnanoko!.png"
-19/03/2023 05:40:08 AM - INFO - Gerada imagem "Tondemo Skill de Isekai Hourou Meshi.png"
-19/03/2023 05:40:09 AM - INFO - Gerada imagem "Trigun Stampede.png"
-19/03/2023 05:40:09 AM - INFO - Gerada imagem "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san.png"
-19/03/2023 05:40:09 AM - INFO - Gerada imagem "UniteUp!.png"
-19/03/2023 05:40:10 AM - INFO - Gerada imagem "Aggretsuko 5th Season.png"
-19/03/2023 05:40:10 AM - INFO - Gerada imagem "Bungou Stray Dogs 4th Season.png"
-19/03/2023 05:40:10 AM - INFO - Gerada imagem "Cardfight!! Vanguard Will+Dress Season 2.png"
-19/03/2023 05:40:11 AM - INFO - Gerada imagem "D4DJ All Mix.png"
-19/03/2023 05:40:11 AM - INFO - Gerada imagem "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Fuka Shou - Yakusai-hen.png"
-19/03/2023 05:40:12 AM - INFO - Gerada imagem "Gokushufudou 2nd Season.png"
-19/03/2023 05:40:12 AM - INFO - Gerada imagem "Ijiranaide, Nagatoro-san 2nd Attack.png"
-19/03/2023 05:40:12 AM - INFO - Gerada imagem "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2.png"
-19/03/2023 05:40:13 AM - INFO - Gerada imagem "Kami-tachi ni Hirowareta Otoko 2.png"
-19/03/2023 05:40:13 AM - INFO - Gerada imagem "Kyokou Suiri 2nd Season.png"
-19/03/2023 05:40:14 AM - INFO - Gerada imagem "Kyuuketsuki Sugu Shinu 2.png"
-19/03/2023 05:40:14 AM - INFO - Gerada imagem "Majutsushi Orphen Hagure Tabi Urbanrama-hen.png"
-19/03/2023 05:40:14 AM - INFO - Gerada imagem "Maou Gakuin no Futekigousha Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II.png"
-19/03/2023 05:40:15 AM - INFO - Gerada imagem "Pokemon Mezase Pokemon Master.png"
-19/03/2023 05:40:15 AM - INFO - Gerada imagem "Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei.png"
-19/03/2023 05:40:16 AM - INFO - Gerada imagem "Shuumatsu no Walküre II.png"
-19/03/2023 05:40:16 AM - INFO - Gerada imagem "Tokyo Revengers Seiya Kessen-hen.png"
-19/03/2023 05:40:16 AM - INFO - Gerada imagem "Tsurune -Tsunagari no Issha-.png"
-19/03/2023 05:40:17 AM - INFO - Gerada imagem "Vinland Saga Season 2.png"
-19/03/2023 05:40:38 AM - INFO - Gerando Imagens Finais
-19/03/2023 05:40:38 AM - INFO - Gerada imagem "Ars no Kyojuu.png"
-19/03/2023 05:40:39 AM - INFO - Gerada imagem "Ayakashi Triangle.png"
-19/03/2023 05:40:39 AM - INFO - Gerada imagem "Benriya Saitou-san, Isekai ni Iku.png"
-19/03/2023 05:40:39 AM - INFO - Gerada imagem "Buddy Daddies.png"
-19/03/2023 05:40:40 AM - INFO - Gerada imagem "Eiyuuou, Bu wo Kiwameru Tame Tenseisu Soshite, Sekai Saikyou no Minarai Kishi.png"
-19/03/2023 05:40:40 AM - INFO - Gerada imagem "HIGH CARD.png"
-19/03/2023 05:40:41 AM - INFO - Gerada imagem "Hikari no Ou.png"
-19/03/2023 05:40:41 AM - INFO - Gerada imagem "Hyouken no Majutsushi ga Sekai wo Suberu.png"
-19/03/2023 05:40:41 AM - INFO - Gerada imagem "Isekai Nonbiri Nouka.png"
-19/03/2023 05:40:42 AM - INFO - Gerada imagem "Ito Junji Maniac.png"
-19/03/2023 05:40:42 AM - INFO - Gerada imagem "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life.png"
-19/03/2023 05:40:42 AM - INFO - Gerada imagem "Koori Zokusei Danshi to Cool na Douryou Joshi.png"
-19/03/2023 05:40:43 AM - INFO - Gerada imagem "Kubo-san wa Mob wo Yurusanai.png"
-19/03/2023 05:40:43 AM - INFO - Gerada imagem "Make My Day.png"
-19/03/2023 05:40:44 AM - INFO - Gerada imagem "Mononogatari.png"
-19/03/2023 05:40:44 AM - INFO - Gerada imagem "Mou Ippon!.png"
-19/03/2023 05:40:44 AM - INFO - Gerada imagem "NieR Automata Ver1.1a.png"
-19/03/2023 05:40:45 AM - INFO - Gerada imagem "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu.png"
-19/03/2023 05:40:45 AM - INFO - Gerada imagem "Nokemono-tachi no Yoru.png"
-19/03/2023 05:40:45 AM - INFO - Gerada imagem "Oniichan wa Oshimai!.png"
-19/03/2023 05:40:46 AM - INFO - Gerada imagem "Ooyukiumi no Kaina.png"
-19/03/2023 05:40:46 AM - INFO - Gerada imagem "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.png"
-19/03/2023 05:40:46 AM - INFO - Gerada imagem "Revenger.png"
-19/03/2023 05:40:47 AM - INFO - Gerada imagem "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu.png"
-19/03/2023 05:40:47 AM - INFO - Gerada imagem "Saikyou Onmyouji no Isekai Tenseiki.png"
-19/03/2023 05:40:48 AM - INFO - Gerada imagem "Spy Kyoushitsu.png"
-19/03/2023 05:40:48 AM - INFO - Gerada imagem "Sugar Apple Fairy Tale.png"
-19/03/2023 05:40:48 AM - INFO - Gerada imagem "Technoroid OVERMIND.png"
-19/03/2023 05:40:49 AM - INFO - Gerada imagem "Tensei Oujo to Tensai Reijou no Mahou Kakumei.png"
-19/03/2023 05:40:49 AM - INFO - Gerada imagem "The Legend of Heroes Sen no Kiseki - Northern War.png"
-19/03/2023 05:40:49 AM - INFO - Gerada imagem "Tomo-chan wa Onnanoko!.png"
-19/03/2023 05:40:50 AM - INFO - Gerada imagem "Tondemo Skill de Isekai Hourou Meshi.png"
-19/03/2023 05:40:50 AM - INFO - Gerada imagem "Trigun Stampede.png"
-19/03/2023 05:40:51 AM - INFO - Gerada imagem "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san.png"
-19/03/2023 05:40:51 AM - INFO - Gerada imagem "UniteUp!.png"
-19/03/2023 05:40:51 AM - INFO - Gerada imagem "Aggretsuko 5th Season.png"
-19/03/2023 05:40:52 AM - INFO - Gerada imagem "Bungou Stray Dogs 4th Season.png"
-19/03/2023 05:40:52 AM - INFO - Gerada imagem "Cardfight!! Vanguard Will+Dress Season 2.png"
-19/03/2023 05:40:52 AM - INFO - Gerada imagem "D4DJ All Mix.png"
-19/03/2023 05:40:53 AM - INFO - Gerada imagem "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Fuka Shou - Yakusai-hen.png"
-19/03/2023 05:40:53 AM - INFO - Gerada imagem "Gokushufudou 2nd Season.png"
-19/03/2023 05:40:54 AM - INFO - Gerada imagem "Ijiranaide, Nagatoro-san 2nd Attack.png"
-19/03/2023 05:40:54 AM - INFO - Gerada imagem "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2.png"
-19/03/2023 05:40:54 AM - INFO - Gerada imagem "Kami-tachi ni Hirowareta Otoko 2.png"
-19/03/2023 05:40:55 AM - INFO - Gerada imagem "Kyokou Suiri 2nd Season.png"
-19/03/2023 05:40:55 AM - INFO - Gerada imagem "Kyuuketsuki Sugu Shinu 2.png"
-19/03/2023 05:40:56 AM - INFO - Gerada imagem "Majutsushi Orphen Hagure Tabi Urbanrama-hen.png"
-19/03/2023 05:40:56 AM - INFO - Gerada imagem "Maou Gakuin no Futekigousha Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II.png"
-19/03/2023 05:40:57 AM - INFO - Gerada imagem "Pokemon Mezase Pokemon Master.png"
-19/03/2023 05:40:57 AM - INFO - Gerada imagem "Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei.png"
-19/03/2023 05:40:57 AM - INFO - Gerada imagem "Shuumatsu no Walküre II.png"
-19/03/2023 05:40:58 AM - INFO - Gerada imagem "Tokyo Revengers Seiya Kessen-hen.png"
-19/03/2023 05:40:58 AM - INFO - Gerada imagem "Tsurune -Tsunagari no Issha-.png"
-19/03/2023 05:40:59 AM - INFO - Gerada imagem "Vinland Saga Season 2.png"
-19/03/2023 05:42:07 AM - INFO - *** Início de execução de preview
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo doubleTitle
-19/03/2023 05:42:07 AM - INFO - Coordenadas Título Original (x, y): (42, 65)
-19/03/2023 05:42:07 AM - INFO - Coordenadas Título em Inglês (x, y): (42, 134)
-19/03/2023 05:42:07 AM - INFO - Texto do Título Original: Ars no Kyojuu
-19/03/2023 05:42:07 AM - INFO - Texto do Título em Inglês: Giant Beasts of Ars
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto de Título Original: 13
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto de Título em Inglês: 19
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo genders
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:42:07 AM - INFO - Texto: Ação, Aventura, Fantasia
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 24
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:42:07 AM - INFO - Texto Final: Ação, Aventura, Fantasia
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:42:07 AM - INFO - Texto: Asahi Production
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 16
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: Asahi Production
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:42:07 AM - INFO - Texto: (Girls' Frontline | Peach Boy Riversidade | Tenshi Souzou Design-bu)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 68
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Linha 1: 38
-19/03/2023 05:42:07 AM - INFO - Linha 2: 68
-19/03/2023 05:42:07 AM - INFO - Linha 3: 108
-19/03/2023 05:42:07 AM - INFO - Texto Final: (Girls' Frontline | Peach Boy
-Riversidade | Tenshi Souzou Design-bu)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:42:07 AM - INFO - Texto: Akira Ogura
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 11
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: Akira Ogura
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:42:07 AM - INFO - Texto: (Namu Amida Butsu! Utena)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 25
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Linha 1: 38
-19/03/2023 05:42:07 AM - INFO - Linha 2: 68
-19/03/2023 05:42:07 AM - INFO - Linha 3: 108
-19/03/2023 05:42:07 AM - INFO - Texto Final: (Namu Amida Butsu! Utena)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:42:07 AM - INFO - Texto: Narimitsu Kaihou
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 16
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: Narimitsu Kaihou
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:42:07 AM - INFO - Texto: (Akudama Drive | Criador de Gakkou Gurashi! | Kanata no Astra)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 62
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Linha 1: 38
-19/03/2023 05:42:07 AM - INFO - Linha 2: 68
-19/03/2023 05:42:07 AM - INFO - Linha 3: 108
-19/03/2023 05:42:07 AM - INFO - Texto Final: (Akudama Drive | Criador de Gakkou
-Gurashi! | Kanata no Astra)
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:42:07 AM - INFO - Texto: Original
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 8
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: Original
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo platform
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:42:07 AM - INFO - Texto: ---
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 3
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: ---
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:42:07 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:42:07 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:42:07 AM - INFO - Texto: 06/01
-19/03/2023 05:42:07 AM - INFO - Tamanho de Texto: 5
-19/03/2023 05:42:07 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:42:07 AM - INFO - Limites:
-19/03/2023 05:42:07 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:42:07 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:42:07 AM - INFO - Texto Final: 06/01
-19/03/2023 05:42:07 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:42:07 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - *** Início de execução de preview
-19/03/2023 05:44:25 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo title
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (0, 102)
-19/03/2023 05:44:25 AM - INFO - Texto: Ars no Kyojuu
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 13
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:44:25 AM - INFO - Texto Final: Ars no Kyojuu
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo genders
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Linha 1: 38
-19/03/2023 05:44:25 AM - INFO - Linha 2: 68
-19/03/2023 05:44:25 AM - INFO - Linha 3: 108
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Linha 1: 38
-19/03/2023 05:44:25 AM - INFO - Linha 2: 68
-19/03/2023 05:44:25 AM - INFO - Linha 3: 108
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Linha 1: 38
-19/03/2023 05:44:25 AM - INFO - Linha 2: 68
-19/03/2023 05:44:25 AM - INFO - Linha 3: 108
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo platform
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:44:25 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:44:25 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:44:25 AM - INFO - Texto: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:44:25 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:44:25 AM - INFO - Limites:
-19/03/2023 05:44:25 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:44:25 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:44:25 AM - INFO - Texto Final: 
-19/03/2023 05:44:25 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:44:25 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - *** Início de execução de preview
-19/03/2023 05:45:14 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo title
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (0, 102)
-19/03/2023 05:45:14 AM - INFO - Texto: Ars no Kyojuu
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 13
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:45:14 AM - INFO - Texto Final: Ars no Kyojuu
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo genders
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Linha 1: 38
-19/03/2023 05:45:14 AM - INFO - Linha 2: 68
-19/03/2023 05:45:14 AM - INFO - Linha 3: 108
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Linha 1: 38
-19/03/2023 05:45:14 AM - INFO - Linha 2: 68
-19/03/2023 05:45:14 AM - INFO - Linha 3: 108
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Linha 1: 38
-19/03/2023 05:45:14 AM - INFO - Linha 2: 68
-19/03/2023 05:45:14 AM - INFO - Linha 3: 108
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo platform
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:45:14 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:45:14 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:45:14 AM - INFO - Texto: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:45:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:45:14 AM - INFO - Limites:
-19/03/2023 05:45:14 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:45:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:45:14 AM - INFO - Texto Final: 
-19/03/2023 05:45:14 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:45:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - *** Início de execução de preview
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo title
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:46:44 AM - INFO - Texto: Tokyo Mew Mew New~
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 18
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:46:44 AM - INFO - Texto Final: Tokyo Mew Mew New~
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo genders
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Linha 1: 38
-19/03/2023 05:46:44 AM - INFO - Linha 2: 68
-19/03/2023 05:46:44 AM - INFO - Linha 3: 108
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Linha 1: 38
-19/03/2023 05:46:44 AM - INFO - Linha 2: 68
-19/03/2023 05:46:44 AM - INFO - Linha 3: 108
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Linha 1: 38
-19/03/2023 05:46:44 AM - INFO - Linha 2: 68
-19/03/2023 05:46:44 AM - INFO - Linha 3: 108
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo platform
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:46:44 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:46:44 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:46:44 AM - INFO - Texto: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:46:44 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:46:44 AM - INFO - Limites:
-19/03/2023 05:46:44 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:46:44 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:46:44 AM - INFO - Texto Final: 
-19/03/2023 05:46:44 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:46:44 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - *** Início de execução de preview
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo title
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:47:03 AM - INFO - Texto: Tokyo Mew Mew New~   
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 21
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:47:03 AM - INFO - Texto Final: Tokyo Mew Mew New~   
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo genders
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Linha 1: 38
-19/03/2023 05:47:03 AM - INFO - Linha 2: 68
-19/03/2023 05:47:03 AM - INFO - Linha 3: 108
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Linha 1: 38
-19/03/2023 05:47:03 AM - INFO - Linha 2: 68
-19/03/2023 05:47:03 AM - INFO - Linha 3: 108
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Linha 1: 38
-19/03/2023 05:47:03 AM - INFO - Linha 2: 68
-19/03/2023 05:47:03 AM - INFO - Linha 3: 108
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo platform
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:03 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:47:03 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:47:03 AM - INFO - Texto: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:03 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:03 AM - INFO - Limites:
-19/03/2023 05:47:03 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:47:03 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:03 AM - INFO - Texto Final: 
-19/03/2023 05:47:03 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:47:03 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - *** Início de execução de preview
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo title
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:47:32 AM - INFO - Texto: Tokyo Mew Mew New~    
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 22
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:47:32 AM - INFO - Texto Final: Tokyo Mew Mew New~    
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo genders
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Linha 1: 38
-19/03/2023 05:47:32 AM - INFO - Linha 2: 68
-19/03/2023 05:47:32 AM - INFO - Linha 3: 108
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Linha 1: 38
-19/03/2023 05:47:32 AM - INFO - Linha 2: 68
-19/03/2023 05:47:32 AM - INFO - Linha 3: 108
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Linha 1: 38
-19/03/2023 05:47:32 AM - INFO - Linha 2: 68
-19/03/2023 05:47:32 AM - INFO - Linha 3: 108
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo platform
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:47:32 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:47:32 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:47:32 AM - INFO - Texto: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:47:32 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:47:32 AM - INFO - Limites:
-19/03/2023 05:47:32 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:47:32 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:47:32 AM - INFO - Texto Final: 
-19/03/2023 05:47:32 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:47:32 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - *** Início de execução de preview
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo title
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo genders
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:53:14 AM - INFO - Texto: A A A A A A A A A A A A A A A A A A M A A A A A A A A A A A A A A M A A A A A A A A A A A A A A A A A A A M A A A A A A A
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 121
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Linha 1: 43
-19/03/2023 05:53:14 AM - INFO - Linha 2: 76
-19/03/2023 05:53:14 AM - INFO - Linha 3: 108
-19/03/2023 05:53:14 AM - INFO - Texto Final: A A A A A A A A A A A A A A A A A A M A A A
-A A A A A A A A A A A M A A A A
-A A A A A A A A A A A A A A A M
-A A A A A A A
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 8
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: -1
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Linha 1: 38
-19/03/2023 05:53:14 AM - INFO - Linha 2: 68
-19/03/2023 05:53:14 AM - INFO - Linha 3: 108
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Linha 1: 38
-19/03/2023 05:53:14 AM - INFO - Linha 2: 68
-19/03/2023 05:53:14 AM - INFO - Linha 3: 108
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo platform
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:14 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:53:14 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:53:14 AM - INFO - Texto: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:14 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:14 AM - INFO - Limites:
-19/03/2023 05:53:14 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:14 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:14 AM - INFO - Texto Final: 
-19/03/2023 05:53:14 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:53:14 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - *** Início de execução de preview
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo title
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo genders
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:53:38 AM - INFO - Texto: A A A A A A A A A A A A A A A A A A M A A A A A A A A A A A A A A M A A A A A A A A A A A A A A A A A A A M A A A A A A A A A A A A A A A A A
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 141
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Linha 1: 40
-19/03/2023 05:53:38 AM - INFO - Linha 2: 86
-19/03/2023 05:53:38 AM - INFO - Linha 3: 122
-19/03/2023 05:53:38 AM - INFO - Texto Final: A A A A A A A A A A A A A A A A A A M A
-A A A A A A A A A A A A A M A A A A A A A A A
-A A A A A A A A A A M A A A A A A A
-A A A A A A A A A A
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 8
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: -1
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Linha 1: 38
-19/03/2023 05:53:38 AM - INFO - Linha 2: 68
-19/03/2023 05:53:38 AM - INFO - Linha 3: 108
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Linha 1: 38
-19/03/2023 05:53:38 AM - INFO - Linha 2: 68
-19/03/2023 05:53:38 AM - INFO - Linha 3: 108
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo platform
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:38 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:53:38 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:53:38 AM - INFO - Texto: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:38 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:38 AM - INFO - Limites:
-19/03/2023 05:53:38 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:38 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:38 AM - INFO - Texto Final: 
-19/03/2023 05:53:38 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:53:38 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - *** Início de execução de preview
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo title
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo genders
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:53:50 AM - INFO - Texto: A A A A A A A A A A A A A A A A A A M A A A A A A A A A A A A A A M
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 67
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Linha 1: 38
-19/03/2023 05:53:50 AM - INFO - Linha 2: 68
-19/03/2023 05:53:50 AM - INFO - Linha 3: 108
-19/03/2023 05:53:50 AM - INFO - Texto Final: A A A A A A A A A A A A A A A A A A M
-A A A A A A A A A A A A A A M
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Linha 1: 38
-19/03/2023 05:53:50 AM - INFO - Linha 2: 68
-19/03/2023 05:53:50 AM - INFO - Linha 3: 108
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Linha 1: 38
-19/03/2023 05:53:50 AM - INFO - Linha 2: 68
-19/03/2023 05:53:50 AM - INFO - Linha 3: 108
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo platform
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:53:50 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:53:50 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:53:50 AM - INFO - Texto: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:53:50 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:53:50 AM - INFO - Limites:
-19/03/2023 05:53:50 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:53:50 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:53:50 AM - INFO - Texto Final: 
-19/03/2023 05:53:50 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:53:50 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - *** Início de execução de preview
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo title
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo genders
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:54:19 AM - INFO - Texto: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 35
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Linha 1: 38
-19/03/2023 05:54:19 AM - INFO - Linha 2: 68
-19/03/2023 05:54:19 AM - INFO - Linha 3: 108
-19/03/2023 05:54:19 AM - INFO - Texto Final: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Linha 1: 38
-19/03/2023 05:54:19 AM - INFO - Linha 2: 68
-19/03/2023 05:54:19 AM - INFO - Linha 3: 108
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Linha 1: 38
-19/03/2023 05:54:19 AM - INFO - Linha 2: 68
-19/03/2023 05:54:19 AM - INFO - Linha 3: 108
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo platform
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:19 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:54:19 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:54:19 AM - INFO - Texto: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:19 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:19 AM - INFO - Limites:
-19/03/2023 05:54:19 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:54:19 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:19 AM - INFO - Texto Final: 
-19/03/2023 05:54:19 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:54:19 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - *** Início de execução de preview
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo title
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (960, 102)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 36
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 42
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 26
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo genders
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 279)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 30
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 34
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo studioName
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 419)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo studioAnimes
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 456)
-19/03/2023 05:54:45 AM - INFO - Texto: AAAAAAAAAAAAAAAAAAAAAAA
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 23
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Linha 1: 38
-19/03/2023 05:54:45 AM - INFO - Linha 2: 68
-19/03/2023 05:54:45 AM - INFO - Linha 3: 108
-19/03/2023 05:54:45 AM - INFO - Texto Final: AAAAAAAAAAAAAAAAAAAAAAA
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo directorName
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 616)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo directorAnimes
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 652)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Linha 1: 38
-19/03/2023 05:54:45 AM - INFO - Linha 2: 68
-19/03/2023 05:54:45 AM - INFO - Linha 3: 108
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo composerName
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 810)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 34
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo composerAnimes
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 846)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Linha 1: 38
-19/03/2023 05:54:45 AM - INFO - Linha 2: 68
-19/03/2023 05:54:45 AM - INFO - Linha 3: 108
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 9
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo originalSource
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (42, 1003)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo platform
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (803, 1010)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 22
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 11
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
-19/03/2023 05:54:45 AM - INFO - Configurações do Campo premiere
-19/03/2023 05:54:45 AM - INFO - Coordenadas(x, y): (1760, 1006)
-19/03/2023 05:54:45 AM - INFO - Texto: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Texto: 0
-19/03/2023 05:54:45 AM - INFO - Parâmetros de Caracteres
-19/03/2023 05:54:45 AM - INFO - Limites:
-19/03/2023 05:54:45 AM - INFO - Limite pra Fonte 1: 40
-19/03/2023 05:54:45 AM - INFO - Limite Linha 1: 500
-19/03/2023 05:54:45 AM - INFO - Texto Final: 
-19/03/2023 05:54:45 AM - INFO - Tamanho de Fonte do Preview: 18
-19/03/2023 05:54:45 AM - INFO - Spacing Definido: 0
+19/03/2023 07:06:53 AM - INFO - =================================
+19/03/2023 07:06:53 AM - INFO - Início do Programa
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de VisualWarning - linha: 0, coluna: 0 ***
+19/03/2023 07:06:53 AM - INFO - *** Instância de SearchButton - linha: 0, coluna 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de VisualWarning - linha: 1, coluna: 0 ***
+19/03/2023 07:06:53 AM - INFO - *** Instância de SearchButton - linha: 1, coluna 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de VisualWarning - linha: 2, coluna: 0 ***
+19/03/2023 07:06:53 AM - INFO - *** Instância de SearchButton - linha: 2, coluna 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de VisualWarning - linha: 3, coluna: 0 ***
+19/03/2023 07:06:53 AM - INFO - *** Instância de SearchButton - linha: 3, coluna 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de VisualWarning - linha: 4, coluna: 0 ***
+19/03/2023 07:06:53 AM - INFO - *** Instância de SearchButton - linha: 4, coluna 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 0***
+19/03/2023 07:06:53 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 0, coluna: 3***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+19/03/2023 07:06:53 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 0, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 3, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 9***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 11***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 13***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 1, coluna 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 0, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 1, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 7, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 8, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 8, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 9, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 10, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 11, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 8, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 8, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 9, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 10, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 11, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 2, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 3, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 2, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 3, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 4, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 5, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 6, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 7, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 8, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 9, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 10, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de AreaFrame - linha: 11, coluna: 0 ***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+19/03/2023 07:06:54 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 0***
+19/03/2023 07:06:54 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 1***
+19/03/2023 07:06:54 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 2***
+19/03/2023 07:06:54 AM - INFO - Carregando Configurações Padrão
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Título Único* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Título Duplo* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Gêneros* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Nome do Estúdio* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Animes do Estúdio* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Nome do Diretor* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Animes do Diretor* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Nome do Compositor* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Animes do Compositor* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Origem* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Plataforma* carregadas
+19/03/2023 07:06:54 AM - INFO - Configurações do frame: *Data de Estréia* carregadas
+19/03/2023 07:06:59 AM - INFO - Gerando Imagens Finais
+19/03/2023 07:06:59 AM - INFO - Gerada imagem "Ars no Kyojuu.png"
+19/03/2023 07:06:59 AM - INFO - Gerada imagem "Ayakashi Triangle.png"
+19/03/2023 07:07:00 AM - INFO - Gerada imagem "Benriya Saitou-san, Isekai ni Iku.png"
+19/03/2023 07:07:00 AM - INFO - Gerada imagem "Buddy Daddies.png"
+19/03/2023 07:07:00 AM - INFO - Gerada imagem "Eiyuuou, Bu wo Kiwameru Tame Tenseisu Soshite, Sekai Saikyou no Minarai Kishi.png"
+19/03/2023 07:07:01 AM - INFO - Gerada imagem "HIGH CARD.png"
+19/03/2023 07:07:01 AM - INFO - Gerada imagem "Hikari no Ou.png"
+19/03/2023 07:07:01 AM - INFO - Gerada imagem "Hyouken no Majutsushi ga Sekai wo Suberu.png"
+19/03/2023 07:07:02 AM - INFO - Gerada imagem "Isekai Nonbiri Nouka.png"
+19/03/2023 07:07:02 AM - INFO - Gerada imagem "Ito Junji Maniac.png"
+19/03/2023 07:07:02 AM - INFO - Gerada imagem "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life.png"
+19/03/2023 07:07:03 AM - INFO - Gerada imagem "Koori Zokusei Danshi to Cool na Douryou Joshi.png"
+19/03/2023 07:07:03 AM - INFO - Gerada imagem "Kubo-san wa Mob wo Yurusanai.png"
+19/03/2023 07:07:03 AM - INFO - Gerada imagem "Make My Day.png"
+19/03/2023 07:07:04 AM - INFO - Gerada imagem "Mononogatari.png"
+19/03/2023 07:07:04 AM - INFO - Gerada imagem "Mou Ippon!.png"
+19/03/2023 07:07:04 AM - INFO - Gerada imagem "NieR Automata Ver1.1a.png"
+19/03/2023 07:07:05 AM - INFO - Gerada imagem "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu.png"
+19/03/2023 07:07:05 AM - INFO - Gerada imagem "Nokemono-tachi no Yoru.png"
+19/03/2023 07:07:05 AM - INFO - Gerada imagem "Oniichan wa Oshimai!.png"
+19/03/2023 07:07:06 AM - INFO - Gerada imagem "Ooyukiumi no Kaina.png"
+19/03/2023 07:07:06 AM - INFO - Gerada imagem "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.png"
+19/03/2023 07:07:06 AM - INFO - Gerada imagem "Revenger.png"
+19/03/2023 07:07:07 AM - INFO - Gerada imagem "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu.png"
+19/03/2023 07:07:07 AM - INFO - Gerada imagem "Saikyou Onmyouji no Isekai Tenseiki.png"
+19/03/2023 07:07:07 AM - INFO - Gerada imagem "Spy Kyoushitsu.png"
+19/03/2023 07:07:08 AM - INFO - Gerada imagem "Sugar Apple Fairy Tale.png"
+19/03/2023 07:07:08 AM - INFO - Gerada imagem "Technoroid OVERMIND.png"
+19/03/2023 07:07:08 AM - INFO - Gerada imagem "Tensei Oujo to Tensai Reijou no Mahou Kakumei.png"
+19/03/2023 07:07:09 AM - INFO - Gerada imagem "The Legend of Heroes Sen no Kiseki - Northern War.png"
+19/03/2023 07:07:09 AM - INFO - Gerada imagem "Tomo-chan wa Onnanoko!.png"
+19/03/2023 07:07:10 AM - INFO - Gerada imagem "Tondemo Skill de Isekai Hourou Meshi.png"
+19/03/2023 07:07:10 AM - INFO - Gerada imagem "Trigun Stampede.png"
+19/03/2023 07:07:10 AM - INFO - Gerada imagem "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san.png"
+19/03/2023 07:07:11 AM - INFO - Gerada imagem "UniteUp!.png"
+19/03/2023 07:07:11 AM - INFO - Gerada imagem "Aggretsuko 5th Season.png"
+19/03/2023 07:07:11 AM - INFO - Gerada imagem "Bungou Stray Dogs 4th Season.png"
+19/03/2023 07:07:12 AM - INFO - Gerada imagem "Cardfight!! Vanguard Will+Dress Season 2.png"
+19/03/2023 07:07:12 AM - INFO - Gerada imagem "D4DJ All Mix.png"
+19/03/2023 07:07:12 AM - INFO - Gerada imagem "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Fuka Shou - Yakusai-hen.png"
+19/03/2023 07:07:13 AM - INFO - Gerada imagem "Gokushufudou 2nd Season.png"
+19/03/2023 07:07:13 AM - INFO - Gerada imagem "Ijiranaide, Nagatoro-san 2nd Attack.png"
+19/03/2023 07:07:13 AM - INFO - Gerada imagem "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2.png"
+19/03/2023 07:07:14 AM - INFO - Gerada imagem "Kami-tachi ni Hirowareta Otoko 2.png"
+19/03/2023 07:07:14 AM - INFO - Gerada imagem "Kyokou Suiri 2nd Season.png"
+19/03/2023 07:07:14 AM - INFO - Gerada imagem "Kyuuketsuki Sugu Shinu 2.png"
+19/03/2023 07:07:15 AM - INFO - Gerada imagem "Majutsushi Orphen Hagure Tabi Urbanrama-hen.png"
+19/03/2023 07:07:15 AM - INFO - Gerada imagem "Maou Gakuin no Futekigousha Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II.png"
+19/03/2023 07:07:16 AM - INFO - Gerada imagem "Pokemon Mezase Pokemon Master.png"
+19/03/2023 07:07:16 AM - INFO - Gerada imagem "Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei.png"
+19/03/2023 07:07:16 AM - INFO - Gerada imagem "Shuumatsu no Walküre II.png"
+19/03/2023 07:07:17 AM - INFO - Gerada imagem "Tokyo Revengers Seiya Kessen-hen.png"
+19/03/2023 07:07:17 AM - INFO - Gerada imagem "Tsurune -Tsunagari no Issha-.png"
+19/03/2023 07:07:17 AM - INFO - Gerada imagem "Vinland Saga Season 2.png"
