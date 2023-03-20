@@ -1,4 +1,5 @@
-('C:\\Users\\Riku Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\PYZ-00.pyz',
+('C:\\Users\\Riku '
+ 'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Riku '
    'Aoki\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',

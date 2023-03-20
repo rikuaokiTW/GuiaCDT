@@ -12,7 +12,7 @@ class Title():
 
 class Input():
     def __init__(self, master, row, column):
-        self.input = Tk.Entry(master, width=50)
+        self.input = Tk.Entry(master, width=50, font=("Arial", 10))
         self.input.grid(row=row, column=column, sticky=Tk.EW)
 
     def getValue(self):
@@ -74,7 +74,7 @@ class ButtonItem():
                         file.write(f'{item["input"].getValue()}\n')
             else:
                 for item in self.inputItem:
-                    if 'Título' in item['fieldName'].getValue():
+                    if 'Título Original' in item['fieldName'].getValue():
                         file.write(f'\n\n{item["input"].getValue()}\n')
                     elif 'Data' in item['fieldName'].getValue():
                         file.write(item["input"].getValue())
@@ -95,13 +95,13 @@ class ButtonItem():
         if fileIsEmpty:
             open(self.pathFile, 'w').close()
         else:
-            if fileLength <= 11:
+            if fileLength <= 12:
                 open(self.pathFile, 'w').close()
             else:
                 fileLength -= 1
                 with open(self.pathFile) as fileObj:
                     infoList = fileObj.readlines()
-                    for i in range(12):
+                    for i in range(13):
                         infoList.pop()
                 with open(self.pathFile, 'w') as file:
                     infoList[-1] = infoList[-1].rstrip()
@@ -122,6 +122,7 @@ async def verifyInput():
             addButton.setPath(pathFile)
             removeLast.setPath(pathFile)
             removeAll.setPath(pathFile)
+            await asyncio.sleep(1)
         except asyncio.CancelledError:
             break
 
@@ -133,89 +134,94 @@ def _asyncio_thread():
     async_loop.create_task(verifyInput())
     async_loop.run_forever()
 
-root = Tk.Tk()
-root.title("Adicionador de Animes")
+if __name__ == '__main__':
+    root = Tk.Tk()
+    root.title("Adicionador de Animes")
 
-windowRes = (500, 500)
-monitorRes = (root.winfo_screenwidth(), root.winfo_screenheight())
-windowPos = (monitorRes[0]/2 - windowRes[0]/2, (monitorRes[1]/2 - windowRes[1]/2) - 30)
-root.geometry(f"{windowRes[0]}x{windowRes[1]}+{int(windowPos[0])}+{int(windowPos[1])}")
+    windowRes = (500, 550)
+    monitorRes = (root.winfo_screenwidth(), root.winfo_screenheight())
+    windowPos = (monitorRes[0]/2 - windowRes[0]/2, (monitorRes[1]/2 - windowRes[1]/2) - 30)
+    root.geometry(f"{windowRes[0]}x{windowRes[1]}+{int(windowPos[0])}+{int(windowPos[1])}")
 
-pathTitle = Title(root, 'Pasta do Arquivo:', 0, 0)
-pathInput = Input(root, 0, 1)
-pathLocator = ButtonItem(root, '...', 0, 0, 'search', 0, 3, 2, pathInput)
+    pathTitle = Title(root, 'Pasta do Arquivo:', 0, 0)
+    pathInput = Input(root, 0, 1)
+    pathLocator = ButtonItem(root, '...', 0, 0, 'search', 0, 3, 2, pathInput)
 
-fileNameTitle = Title(root, 'Nome do Arquivo:', 1, 0)
-fileNameInput = Input(root, 1, 1)
+    fileNameTitle = Title(root, 'Nome do Arquivo:', 1, 0)
+    fileNameInput = Input(root, 1, 1)
 
-spacing1 = Title(root, '', 2, 0, pady=10, columnspan=3)
+    spacing1 = Title(root, '', 2, 0, pady=10, columnspan=3)
 
-fields = [
-    {
-        "fieldName": Title(root, '1. Título:', 3, 0),
-        "input": Input(root, 3, 1),
-    },
-    {
-        "fieldName": Title(root, '2. TEMA/GEN/DEMOG:', 4, 0),
-        "input": Input(root, 4, 1),
-    },
-    {
-        "fieldName": Title(root, '3. Nome do Estúdio:', 5, 0),
-        "input": Input(root, 5, 1),
-    },
-    {
-        "fieldName": Title(root, '4. Animes do Estúdio:', 6, 0),
-        "input": Input(root, 6, 1),
-    },
-    {
-        "fieldName": Title(root, '5. Nome do Diretor:', 7, 0),
-        "input": Input(root, 7, 1),
-    },
-    {
-        "fieldName": Title(root, '6. Animes do Diretor:', 8, 0),
-        "input": Input(root, 8, 1),
-    },
-    {
-        "fieldName": Title(root, '7. Nome do Compositor:', 9, 0),
-        "input": Input(root, 9, 1),
-    },
-    {
-        "fieldName": Title(root, '8. Animes do Compositor:', 10, 0),
-        "input": Input(root, 10, 1),
-    },
-    {
-        "fieldName": Title(root, '9. Origem:', 11, 0),
-        "input": Input(root, 11, 1),
-    },
-    {
-        "fieldName": Title(root, '10. Plataforma:', 12, 0),
-        "input": Input(root, 12, 1),
-    },
-    {
-        "fieldName": Title(root, '11. Data de Estréia:', 13, 0),
-        "input": Input(root, 13, 1),
-    },
-]
+    fields = [
+        {
+            "fieldName": Title(root, '1. Título Original:', 3, 0),
+            "input": Input(root, 3, 1),
+        },
+        {
+            "fieldName": Title(root, '2. Título em Inglês:', 4, 0),
+            "input": Input(root, 4, 1),
+        },
+        {
+            "fieldName": Title(root, '3. TEMA/GEN/DEMOG:', 5, 0),
+            "input": Input(root, 5, 1),
+        },
+        {
+            "fieldName": Title(root, '4. Nome do Estúdio:', 6, 0),
+            "input": Input(root, 6, 1),
+        },
+        {
+            "fieldName": Title(root, '5. Animes do Estúdio:', 7, 0),
+            "input": Input(root, 7, 1),
+        },
+        {
+            "fieldName": Title(root, '6. Nome do Diretor:', 8, 0),
+            "input": Input(root, 8, 1),
+        },
+        {
+            "fieldName": Title(root, '7. Animes do Diretor:', 9, 0),
+            "input": Input(root, 9, 1),
+        },
+        {
+            "fieldName": Title(root, '8. Nome do Compositor:', 10, 0),
+            "input": Input(root, 10, 1),
+        },
+        {
+            "fieldName": Title(root, '9. Animes do Compositor:', 11, 0),
+            "input": Input(root, 11, 1),
+        },
+        {
+            "fieldName": Title(root, '10. Origem:', 12, 0),
+            "input": Input(root, 12, 1),
+        },
+        {
+            "fieldName": Title(root, '11. Plataforma:', 13, 0),
+            "input": Input(root, 13, 1),
+        },
+        {
+            "fieldName": Title(root, '12. Data de Estréia:', 14, 0),
+            "input": Input(root, 14, 1),
+        },
+    ]
 
-spacing2 = Title(root, '', 14, 0, pady=10, columnspan=3)
+    spacing2 = Title(root, '', 15, 0, pady=10, columnspan=3)
 
-buttonFrame = Tk.Frame(root)
+    buttonFrame = Tk.Frame(root)
 
-addButton = ButtonItem(buttonFrame, 'Adicionar', 4, 2, 'add', 0, 0, inputItem=fields, bgColor='#7BFF78', fontColor='#0d650b')
-removeLast = ButtonItem(buttonFrame, 'Remover Último', 4, 2, 'removeLast', 0, 1, bgColor='lightyellow', fontColor='black')
-removeAll = ButtonItem(buttonFrame, 'Apagar Tudo', 4, 2, 'removeAll', 0, 2, bgColor='#FF7878', fontColor='#650B0B')
+    addButton = ButtonItem(buttonFrame, 'Adicionar', 4, 2, 'add', 0, 0, inputItem=fields, bgColor='#7BFF78', fontColor='#0d650b')
+    removeLast = ButtonItem(buttonFrame, 'Remover Último', 4, 2, 'removeLast', 0, 1, bgColor='lightyellow', fontColor='black')
+    removeAll = ButtonItem(buttonFrame, 'Apagar Tudo', 4, 2, 'removeAll', 0, 2, bgColor='#FF7878', fontColor='#650B0B')
 
-buttonFrame.grid(row=15, column=0, columnspan=4, sticky=Tk.EW)
+    buttonFrame.grid(row=16, column=0, columnspan=4, sticky=Tk.EW)
 
 
-root.grid_columnconfigure([1], weight=1)
-root.grid_rowconfigure([2, 14], weight=1)
-buttonFrame.grid_columnconfigure([0, 1, 2], weight=1)
+    root.grid_columnconfigure([1], weight=1)
+    root.grid_rowconfigure([2, 15], weight=1)
+    buttonFrame.grid_columnconfigure([0, 1, 2], weight=1)
 
-async_loop = asyncio.get_event_loop()
-thread = threading.Thread(target=_asyncio_thread)
-thread.start()
+    async_loop = asyncio.get_event_loop()
+    thread = threading.Thread(target=_asyncio_thread)
+    thread.start()
 
-root.protocol("WM_DELETE_WINDOW", onClosing)
+    root.protocol("WM_DELETE_WINDOW", onClosing)
 
-root.mainloop()
+    root.mainloop()

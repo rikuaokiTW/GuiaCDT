@@ -1,4 +1,5 @@
-('C:\\Users\\Riku Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\Add.pkg',
+('C:\\Users\\Riku '
+ 'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\AddAnimes.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -9,27 +10,27 @@
   'SPLASH': True},
  [('PYZ-00.pyz',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\PYZ-00.pyz',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\localpycs\\struct.pyc',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\localpycs\\pyimod01_archive.pyc',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\localpycs\\pyimod02_importers.pyc',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\localpycs\\pyimod03_ctypes.pyc',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\Riku '
-   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\Add\\localpycs\\pyimod04_pywin32.pyc',
+   'Aoki\\Documents\\Programas\\GuiaCDT\\build\\AddAnimes\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Riku '
@@ -51,8 +52,8 @@
    'C:\\Users\\Riku '
    'Aoki\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('Add',
-   'C:\\Users\\Riku Aoki\\Documents\\Programas\\GuiaCDT\\Add.py',
+  ('AddAnimes',
+   'C:\\Users\\Riku Aoki\\Documents\\Programas\\GuiaCDT\\AddAnimes.py',
    'PYSOURCE')],
  True,
  False,
