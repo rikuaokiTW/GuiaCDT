@@ -1,0 +1,448 @@
+27/03/2023 11:27:17 AM - INFO - =================================
+27/03/2023 11:27:17 AM - INFO - Início do Programa
+27/03/2023 11:27:17 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
+27/03/2023 11:27:17 AM - INFO - *** Instância de VisualWarning - linha: 0, coluna: 0 ***
+27/03/2023 11:27:17 AM - INFO - *** Instância de SearchButton - linha: 0, coluna 3***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
+27/03/2023 11:27:17 AM - INFO - *** Instância de VisualWarning - linha: 1, coluna: 0 ***
+27/03/2023 11:27:17 AM - INFO - *** Instância de SearchButton - linha: 1, coluna 3***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:17 AM - INFO - *** Instância de VisualWarning - linha: 2, coluna: 0 ***
+27/03/2023 11:27:17 AM - INFO - *** Instância de SearchButton - linha: 2, coluna 3***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+27/03/2023 11:27:17 AM - INFO - *** Instância de VisualWarning - linha: 3, coluna: 0 ***
+27/03/2023 11:27:17 AM - INFO - *** Instância de SearchButton - linha: 3, coluna 3***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+27/03/2023 11:27:17 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
+27/03/2023 11:27:17 AM - INFO - *** Instância de VisualWarning - linha: 4, coluna: 0 ***
+27/03/2023 11:27:17 AM - INFO - *** Instância de SearchButton - linha: 4, coluna 3***
+27/03/2023 11:27:17 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 0***
+27/03/2023 11:27:17 AM - INFO - *** Instância de ActionButton - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 0, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 0, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 3, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 9***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 11***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 13***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 1, coluna 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 0, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 1, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 7, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 8, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 8, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 9, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 10, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 11, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 8, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 8, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 9, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 10, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 11, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 2, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 3, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 3, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 2, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 3, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 4, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 5, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 6, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 7, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 8, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 4***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 5***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 7***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 6***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 9***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 11***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 10***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 12***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 13***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 14***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 15***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 8***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 9, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 10, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de AreaFrame - linha: 11, coluna: 0 ***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 3, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 5, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 6, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 4, coluna 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 5, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 6, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 4, coluna: 3***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 0, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Title - linha: 1, coluna: 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de Input - linha: 2, coluna 2***
+27/03/2023 11:27:18 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 0***
+27/03/2023 11:27:18 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 1***
+27/03/2023 11:27:18 AM - INFO - *** Instância de ActionButton - linha: 4, coluna 2***
+27/03/2023 11:27:18 AM - INFO - Carregando Configurações Padrão
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Título Único* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Título Duplo* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Gêneros* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Nome do Estúdio* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Animes do Estúdio* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Nome do Diretor* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Animes do Diretor* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Nome do Compositor* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Animes do Compositor* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Origem* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Plataforma* carregadas
+27/03/2023 11:27:18 AM - INFO - Configurações do frame: *Data de Estréia* carregadas
+27/03/2023 11:27:26 AM - INFO - Gerando Imagens Finais
+27/03/2023 11:27:26 AM - INFO - Gerada imagem "Ars no Kyojuu.png"
+27/03/2023 11:27:26 AM - INFO - Gerada imagem "Ayakashi Triangle.png"
+27/03/2023 11:27:27 AM - INFO - Gerada imagem "Benriya Saitou-san, Isekai ni Iku.png"
+27/03/2023 11:27:27 AM - INFO - Gerada imagem "Buddy Daddies.png"
+27/03/2023 11:27:27 AM - INFO - Gerada imagem "Eiyuuou, Bu wo Kiwameru Tame Tenseisu Soshite, Sekai Saikyou no Minarai Kishi.png"
+27/03/2023 11:27:28 AM - INFO - Gerada imagem "HIGH CARD.png"
+27/03/2023 11:27:28 AM - INFO - Gerada imagem "Hikari no Ou.png"
+27/03/2023 11:27:28 AM - INFO - Gerada imagem "Hyouken no Majutsushi ga Sekai wo Suberu.png"
+27/03/2023 11:27:28 AM - INFO - Gerada imagem "Isekai Nonbiri Nouka.png"
+27/03/2023 11:27:29 AM - INFO - Gerada imagem "Ito Junji Maniac.png"
+27/03/2023 11:27:29 AM - INFO - Gerada imagem "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life.png"
+27/03/2023 11:27:29 AM - INFO - Gerada imagem "Koori Zokusei Danshi to Cool na Douryou Joshi.png"
+27/03/2023 11:27:30 AM - INFO - Gerada imagem "Kubo-san wa Mob wo Yurusanai.png"
+27/03/2023 11:27:30 AM - INFO - Gerada imagem "Make My Day.png"
+27/03/2023 11:27:30 AM - INFO - Gerada imagem "Mononogatari.png"
+27/03/2023 11:27:31 AM - INFO - Gerada imagem "Mou Ippon!.png"
+27/03/2023 11:27:31 AM - INFO - Gerada imagem "NieR Automata Ver1.1a.png"
+27/03/2023 11:27:31 AM - INFO - Gerada imagem "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu.png"
+27/03/2023 11:27:32 AM - INFO - Gerada imagem "Nokemono-tachi no Yoru.png"
+27/03/2023 11:27:32 AM - INFO - Gerada imagem "Oniichan wa Oshimai!.png"
+27/03/2023 11:27:32 AM - INFO - Gerada imagem "Ooyukiumi no Kaina.png"
+27/03/2023 11:27:32 AM - INFO - Gerada imagem "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.png"
+27/03/2023 11:27:33 AM - INFO - Gerada imagem "Revenger.png"
+27/03/2023 11:27:33 AM - INFO - Gerada imagem "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu.png"
+27/03/2023 11:27:33 AM - INFO - Gerada imagem "Saikyou Onmyouji no Isekai Tenseiki.png"
+27/03/2023 11:27:34 AM - INFO - Gerada imagem "Spy Kyoushitsu.png"
+27/03/2023 11:27:34 AM - INFO - Gerada imagem "Sugar Apple Fairy Tale.png"
+27/03/2023 11:27:34 AM - INFO - Gerada imagem "Technoroid OVERMIND.png"
+27/03/2023 11:27:35 AM - INFO - Gerada imagem "Tensei Oujo to Tensai Reijou no Mahou Kakumei.png"
+27/03/2023 11:27:35 AM - INFO - Gerada imagem "The Legend of Heroes Sen no Kiseki - Northern War.png"
+27/03/2023 11:27:35 AM - INFO - Gerada imagem "Tomo-chan wa Onnanoko!.png"
+27/03/2023 11:27:36 AM - INFO - Gerada imagem "Tondemo Skill de Isekai Hourou Meshi.png"
+27/03/2023 11:27:36 AM - INFO - Gerada imagem "Trigun Stampede.png"
+27/03/2023 11:27:36 AM - INFO - Gerada imagem "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san.png"
+27/03/2023 11:27:36 AM - INFO - Gerada imagem "UniteUp!.png"
+27/03/2023 11:27:37 AM - INFO - Gerada imagem "Aggretsuko 5th Season.png"
+27/03/2023 11:27:37 AM - INFO - Gerada imagem "Bungou Stray Dogs 4th Season.png"
+27/03/2023 11:27:37 AM - INFO - Gerada imagem "Cardfight!! Vanguard Will+Dress Season 2.png"
+27/03/2023 11:27:38 AM - INFO - Gerada imagem "D4DJ All Mix.png"
+27/03/2023 11:27:38 AM - INFO - Gerada imagem "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Fuka Shou - Yakusai-hen.png"
+27/03/2023 11:27:38 AM - INFO - Gerada imagem "Gokushufudou 2nd Season.png"
+27/03/2023 11:27:39 AM - INFO - Gerada imagem "Ijiranaide, Nagatoro-san 2nd Attack.png"
+27/03/2023 11:27:39 AM - INFO - Gerada imagem "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2.png"
+27/03/2023 11:27:39 AM - INFO - Gerada imagem "Kami-tachi ni Hirowareta Otoko 2.png"
+27/03/2023 11:27:40 AM - INFO - Gerada imagem "Kyokou Suiri 2nd Season.png"
+27/03/2023 11:27:40 AM - INFO - Gerada imagem "Kyuuketsuki Sugu Shinu 2.png"
+27/03/2023 11:27:40 AM - INFO - Gerada imagem "Majutsushi Orphen Hagure Tabi Urbanrama-hen.png"
+27/03/2023 11:27:41 AM - INFO - Gerada imagem "Maou Gakuin no Futekigousha Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou II.png"
+27/03/2023 11:27:41 AM - INFO - Gerada imagem "Pokemon Mezase Pokemon Master.png"
+27/03/2023 11:27:41 AM - INFO - Gerada imagem "Shin Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei.png"
+27/03/2023 11:27:42 AM - INFO - Gerada imagem "Shuumatsu no Walküre II.png"
+27/03/2023 11:27:42 AM - INFO - Gerada imagem "Tokyo Revengers Seiya Kessen-hen.png"
+27/03/2023 11:27:42 AM - INFO - Gerada imagem "Tsurune -Tsunagari no Issha-.png"
+27/03/2023 11:27:43 AM - INFO - Gerada imagem "Vinland Saga Season 2.png"

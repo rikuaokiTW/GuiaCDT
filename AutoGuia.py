@@ -161,7 +161,7 @@ class ErrorWindow(Toplevel):
         self.buttonOk = Button(self.window, text='OK', background='#FF7878', fg='#650B0B', width="10", font=("Consolas"), bd=2, command=lambda: self.window.destroy())
         self.buttonOk.grid(row=1, column=0, sticky=EW)
         # Dimensao da janela de erro
-        dj = (400, 100)
+        dj = (450, 100)
         # Resolucao do Monitor
         rm = (self.window.winfo_screenwidth(), self.window.winfo_screenheight())
         # Posicao da Janela de erro
@@ -172,9 +172,26 @@ class ErrorWindow(Toplevel):
         self.window.grid_rowconfigure([0], weight=1)
         self.window.grid_columnconfigure([0], weight=1)
     
-    def valueError(self):
+    def valueError(self, newMessage = ''):
         self.window.title('Erro de Valor')
-        self.message.setName('ERRO: Só é permitido números inteiros.')
+        if newMessage:
+            self.message.setName(f'ERRO: {newMessage}')
+        else:
+            self.message.setName('ERRO: Só é permitido números inteiros.')
+    
+    def imageSizeError(self, newMessage = ''):
+        self.window.title('Erro de Tamanho')
+        if newMessage:
+            self.message.setName(f'ERRO: {newMessage}')
+        else:
+            self.message.setName('ERRO: A imagem base precisa ser na dimensão 1920x1080.')
+    
+    def indexError(self, newMessage = ''):
+        self.window.title('Erro de Index')
+        if newMessage:
+            self.message.setName(f'ERRO: {newMessage}')
+        else:
+            self.message.setName('ERRO: Há alguma informação de anime excedente ou em falta')
         
         
 
@@ -551,6 +568,7 @@ class ActionButton(Button):
         self.pathDataText = paths[4] if paths else ''
         self.slice = SliceText()
         self.draw = ImageText()
+        self.error = ErrorWindow
 
         self.actionButton = Button(self.__master, text=text, background=bgColor, fg=fontColor, width=width, font=("Consolas"), bd=2)
         self.setAction()
@@ -580,6 +598,12 @@ class ActionButton(Button):
         # RF005 - Gera prévia com a imagem indicada redimensionando-a
         logging.info('*** Início de execução de preview')
         previewImage = Image.open(self.pathBaseImage)
+        try:
+            if previewImage.size != (1920, 1080):
+                raise ValueError('Tamanho Inválido')
+        except ValueError as e:
+            self.error().imageSizeError()
+            raise
         previewImage = previewImage.resize((533,300))
         oneTitle = True
         secondTitle = self.listInputs[1]['frame'].getText()
@@ -899,6 +923,59 @@ class ActionButton(Button):
         with open(self.pathDataText) as fileObj:
             infoAnimes = fileObj.readlines()
             infoAnimes = [line.rstrip() for line in infoAnimes]
+            try:
+                if (len(infoAnimes) + 1)%13 != 0:
+                    raise IndexError('Número de Informações incompatível')
+                elif (len(infoAnimes) + 1)%13 == 0:
+                    copyInfo = infoAnimes
+                    copyDicio = animesInfo
+                    copyInfo.append('')
+                    copyDicio['break'] = ''
+                    keyNames = {'title': 'Título Original', 'doubleTitle': 'Título em Inglês', 'genders': 'Gêneros', 'studioName': 'Nome do Estúdio', 'studioAnimes': 'Animes do Estúdio', 'directorName': 'Nome do Diretor', 'composerName': 'Nome do Compositor', 'originalSource': 'Origem', 'platform': 'Plataforma', 'premiere': 'Estréia'}
+                    anime = 0
+                    for x in range(int(len(copyInfo)/13)):
+                        blockInfo = copyInfo[x*13:]
+                        anime += 1
+                        animeName = blockInfo[0]
+                        if len(animeName) > 15:
+                            count = 15
+                            animeName = list(animeName)
+                            for x in range(15):
+                                if animeName[count] == ' ':
+                                    animeName = ''.join(animeName[:count])
+                                    break
+                                else:
+                                    count -= 1
+                        item = 0
+                        for key in copyDicio.keys():
+                            copyDicio[key] = blockInfo[item]
+                            item += 1
+                        for key, value in copyDicio.items():
+                            if value == '' and key != 'break':
+                                raise ValueError(f'O campo "{keyNames[key]}" do anime {anime}, {animeName}, está vazio.')
+                            elif value != '' and key == 'break':
+                                raise ValueError(f'O campo de Quebra de Linha do anime {anime} deveria estar vazio.')
+                        copyDicio = {
+                            'title': '',
+                            'doubleTitle': '',
+                            'genders': '',
+                            'studioName': '',
+                            'studioAnimes': '',
+                            'directorName': '',
+                            'directorAnimes': '',
+                            'composerName': '',
+                            'composerAnimes': '',
+                            'originalSource': '',
+                            'platform': '',
+                            'premiere': '',
+                            'break': '',
+                        }
+            except (IndexError, ValueError) as e:
+                if 'ValueError' in repr(e):
+                    self.error().valueError(str(e))
+                else:
+                    self.error().indexError()
+                raise
             while '' in infoAnimes:
                 infoAnimes.remove('')
             if infoAnimes.count('=='):
@@ -944,6 +1021,12 @@ class ActionButton(Button):
             imageName = ''.join(imageName) + '.png'
 
             finalImage = Image.open(self.pathBaseImage)
+            try:
+                if finalImage.size != (1920, 1080):
+                    raise ValueError('Tamanho Inválido')
+            except ValueError as e:
+                self.error().imageSizeError()
+                raise
             for key, value in anime.items():
                 if key == 'doubleTitle':
                     if value != '' and value != '==':
