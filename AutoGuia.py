@@ -161,7 +161,7 @@ class ErrorWindow(Toplevel):
         self.buttonOk = Button(self.window, text='OK', background='#FF7878', fg='#650B0B', width="10", font=("Consolas"), bd=2, command=lambda: self.window.destroy())
         self.buttonOk.grid(row=1, column=0, sticky=EW)
         # Dimensao da janela de erro
-        dj = (450, 100)
+        dj = (480, 100)
         # Resolucao do Monitor
         rm = (self.window.winfo_screenwidth(), self.window.winfo_screenheight())
         # Posicao da Janela de erro
@@ -931,7 +931,7 @@ class ActionButton(Button):
                     copyDicio = animesInfo
                     copyInfo.append('')
                     copyDicio['break'] = ''
-                    keyNames = {'title': 'Título Original', 'doubleTitle': 'Título em Inglês', 'genders': 'Gêneros', 'studioName': 'Nome do Estúdio', 'studioAnimes': 'Animes do Estúdio', 'directorName': 'Nome do Diretor', 'composerName': 'Nome do Compositor', 'originalSource': 'Origem', 'platform': 'Plataforma', 'premiere': 'Estréia'}
+                    keyNames = {'title': 'Título Original', 'doubleTitle': 'Título em Inglês', 'genders': 'Gêneros', 'studioName': 'Nome do Estúdio', 'studioAnimes': 'Animes do Estúdio', 'directorName': 'Nome do Diretor', 'directorAnimes': 'Animes do Diretor', 'composerName': 'Nome do Compositor', 'composerAnimes': 'Animes do Compositor', 'originalSource': 'Origem', 'platform': 'Plataforma', 'premiere': 'Estréia'}
                     anime = 0
                     for x in range(int(len(copyInfo)/13)):
                         blockInfo = copyInfo[x*13:]
